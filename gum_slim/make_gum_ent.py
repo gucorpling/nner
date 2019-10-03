@@ -2,19 +2,20 @@ import io, os, sys, re
 from glob import glob
 
 
-# TODO: add reddit to splits
 dev_files = ["GUM_interview_peres","GUM_interview_cyclone","GUM_interview_gaming",
 			   "GUM_news_iodine","GUM_news_defector","GUM_news_homeopathic",
 			   "GUM_voyage_athens","GUM_voyage_isfahan","GUM_voyage_coron",
 			   "GUM_whow_joke","GUM_whow_skittles","GUM_whow_overalls",
 			   "GUM_fiction_beast","GUM_bio_emperor","GUM_academic_librarians",
-			   "GUM_fiction_lunre","GUM_bio_byron","GUM_academic_exposure"]
+			   "GUM_fiction_lunre","GUM_bio_byron","GUM_academic_exposure",
+			   "GUM_reddit_space","GUM_reddit_stroke"]
 test_files = ["GUM_interview_mcguire","GUM_interview_libertarian","GUM_interview_hill",
 			   "GUM_news_nasa","GUM_news_expo","GUM_news_sensitive",
 			   "GUM_voyage_oakland","GUM_voyage_thailand","GUM_voyage_vavau",
 			   "GUM_whow_mice","GUM_whow_cupcakes","GUM_whow_cactus",
 			   "GUM_fiction_falling","GUM_bio_jespersen","GUM_academic_discrimination",
-			   "GUM_academic_eegimaa","GUM_bio_dvorak","GUM_fiction_teeth"]
+			   "GUM_academic_eegimaa","GUM_bio_dvorak","GUM_fiction_teeth",
+			   "GUM_reddit_escape","GUM_reddit_steak"]
 
 
 gum_root = "/"  # PATH TO GUM ROOT HERE
@@ -54,7 +55,6 @@ for file_ in files:
 	else:
 		train += output
 	output = []
-
 
 
 
