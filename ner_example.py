@@ -1,4 +1,10 @@
-from flair.data import TaggedCorpus
+
+# TaggedCorpus seems outdated
+# from flair.data import TaggedCorpus
+
+from flair.data import Corpus
+
+
 from flair.data_fetcher import NLPTaskDataFetcher, NLPTask
 from flair.embeddings import TokenEmbeddings, WordEmbeddings, StackedEmbeddings, FlairEmbeddings
 from typing import List
@@ -8,14 +14,17 @@ from typing import List
 cols = {0: 'text', 1: 'pos', 2: 'func', 3: 'ent', 4: 'coref', 5: 'genre', 6: 'stype', 7:'subord',8:'ortho1',9: 'ortho2',10:'label'}
 #corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("conll_03",base_path="gum_slim")#.downsample(0.1)
 
-# TODO: in flair's data_fetcher.py, add a corpus type:
+# DONE: in flair's data_fetcher.py, add a corpus type:
 #        if task == "gum_ent":  # AZ
 #           columns = {0: 'text', 1: 'pos', 2: 'np', 3: 'ner'}
 #           return NLPTaskDataFetcher.load_column_corpus(data_folder, columns, tag_to_biloes='ner')
 
 
 
-corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim")#.downsample(0.1)
+# corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim")#.downsample(0.1)
+
+corpus: Corpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim").downsample(0.1)
+
 print(corpus)
 
 # 2. what tag do we want to predict?
@@ -58,7 +67,8 @@ trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
               mini_batch_size=32,
-              max_epochs=150)
+              # max_epochs=150,
+              max_epochs=1)
 
 # 8. plot training curves (optional)
 from flair.visual.training_curves import Plotter
