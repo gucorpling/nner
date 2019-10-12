@@ -88,6 +88,7 @@ trainer.train(os.path.join('results', args.corpus),
               learning_rate=0.1,
               mini_batch_size=32,
               max_epochs=args.epochs,
+              patience=5,
               embeddings_storage_mode=args.node)
 
 
