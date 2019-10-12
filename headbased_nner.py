@@ -2,6 +2,7 @@
 # TaggedCorpus seems outdated
 # from flair.data import TaggedCorpus
 
+import os
 from flair.data import Corpus
 
 
@@ -23,7 +24,9 @@ cols = {0: 'text', 1: 'pos', 2: 'func', 3: 'ent', 4: 'coref', 5: 'genre', 6: 'st
 
 # corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim")#.downsample(0.1)
 
-corpus: Corpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim").downsample(0.1)
+corpus: Corpus = NLPTaskDataFetcher.load_corpus("gum5",base_path=os.path.normpath('./data/autoslim/'))#.downsample(0.1)
+# corpus: Corpus = NLPTaskDataFetcher.load_corpus(os.path.normpath('./data/autoslim/gum5/'))#.downsample(0.1)
+
 
 print(corpus)
 
@@ -68,7 +71,7 @@ trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
               mini_batch_size=32,
               # max_epochs=150,
-              max_epochs=1)
+              max_epochs=5)
 
 # 8. plot training curves (optional)
 from flair.visual.training_curves import Plotter
