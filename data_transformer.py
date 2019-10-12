@@ -11,7 +11,7 @@ parser.add_argument('--inputformat', '-i',default='autoconllu', choices=['tsv', 
 parser.add_argument('--outputformat', '-o',default='autoslim', choices=['autoslim', 'ace', 'xml', 'autoconllu'],
                     help='output format of GUM')
 parser.add_argument('--corpus', '-c',default='gum5', choices=['gum5', 'ace2005'],
-                    help='where the source gum directory is located')
+                    help='which corpus we are using, gum5 or ace2005')
 
 parser.add_argument('--datadir', '-d',default=os.path.normpath(r'./data/'),
                     help='where the entire datadir is located')

@@ -2,7 +2,7 @@
 # TaggedCorpus seems outdated
 # from flair.data import TaggedCorpus
 
-import os
+import os, argparse
 from flair.data import Corpus
 
 
@@ -10,9 +10,26 @@ from flair.data_fetcher import NLPTaskDataFetcher, NLPTask
 from flair.embeddings import TokenEmbeddings, WordEmbeddings, StackedEmbeddings, FlairEmbeddings
 from typing import List
 
+
+
+parser = argparse.ArgumentParser(description='Get GUM data')
+parser.add_argument('--corpus', '-c',default='gum5', choices=['gum5', 'ace2005'],
+                    help='which corpus we are using, gum5 or ace2005')
+parser.add_argument('--epochs', '-e',default=150, type=int,
+                    help='maximum number of epochs')
+parser.add_argument('--size', '-s',default=0.1, type=float,
+                    help='downsize the corpus by how much')
+parser.add_argument('--node', '-n',default='gpu', choices=['gpu', 'cpu', 'none'],
+                    help='train on cpu or gpu')
+
+
+args = parser.parse_args()
+
+
+
 # 1. get the corpus
 #corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus(NLPTask.CONLL_03,base_path="gum_slim").downsample(0.1)
-cols = {0: 'text', 1: 'pos', 2: 'func', 3: 'ent', 4: 'coref', 5: 'genre', 6: 'stype', 7:'subord',8:'ortho1',9: 'ortho2',10:'label'}
+# cols = {0: 'text', 1: 'pos', 2: 'func', 3: 'ent', 4: 'coref', 5: 'genre', 6: 'stype', 7:'subord',8:'ortho1',9: 'ortho2',10:'label'}
 #corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("conll_03",base_path="gum_slim")#.downsample(0.1)
 
 # DONE: in flair's data_fetcher.py, add a corpus type:
@@ -24,7 +41,7 @@ cols = {0: 'text', 1: 'pos', 2: 'func', 3: 'ent', 4: 'coref', 5: 'genre', 6: 'st
 
 # corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim")#.downsample(0.1)
 
-corpus: Corpus = NLPTaskDataFetcher.load_corpus("gum5",base_path=os.path.normpath('./data/autoslim/'))#.downsample(0.1)
+corpus: Corpus = NLPTaskDataFetcher.load_corpus(args.corpus,base_path=os.path.normpath('./data/autoslim/')).downsample(args.size)
 # corpus: Corpus = NLPTaskDataFetcher.load_corpus(os.path.normpath('./data/autoslim/gum5/'))#.downsample(0.1)
 
 
@@ -71,7 +88,8 @@ trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
               mini_batch_size=32,
               # max_epochs=150,
-              max_epochs=5)
+              max_epochs=args.epochs,
+              embeddings_storage_mode=args.node)
 
 # 8. plot training curves (optional)
 from flair.visual.training_curves import Plotter
