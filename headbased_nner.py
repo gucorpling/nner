@@ -84,7 +84,7 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 # 7. start training
-trainer.train('resources/taggers/example-ner',
+trainer.train(os.path.join('results', args.corpus),
               learning_rate=0.1,
               mini_batch_size=32,
               max_epochs=args.epochs,
