@@ -87,12 +87,14 @@ trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 trainer.train('resources/taggers/example-ner',
               learning_rate=0.1,
               mini_batch_size=32,
-              # max_epochs=150,
               max_epochs=args.epochs,
               embeddings_storage_mode=args.node)
 
+
+
+
 # 8. plot training curves (optional)
-from flair.visual.training_curves import Plotter
-plotter = Plotter()
-plotter.plot_training_curves('resources/taggers/example-ner/loss.tsv')
-plotter.plot_weights('resources/taggers/example-ner/weights.txt')
+# from flair.visual.training_curves import Plotter
+# plotter = Plotter()
+# plotter.plot_training_curves('resources/taggers/example-ner/loss.tsv')
+# plotter.plot_weights('resources/taggers/example-ner/weights.txt')
