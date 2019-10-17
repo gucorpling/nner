@@ -6,16 +6,16 @@ import stanfordnlp
 os.chdir('.')
 
 parser = argparse.ArgumentParser(description='Get GUM data')
-parser.add_argument('--inputformat', '-i',default='autoconllu', choices=['tsv', 'ace', 'autoconllu'],
+parser.add_argument('--inputformat', '-i',default='ace', choices=['tsv', 'ace', 'autoconllu'],
                     help='input format of GUM')
-parser.add_argument('--outputformat', '-o',default='autoslim', choices=['autoslim', 'ace', 'xml', 'autoconllu'],
+parser.add_argument('--outputformat', '-o',default='xml', choices=['autoslim', 'ace', 'xml', 'autoconllu'],
                     help='output format of GUM')
 parser.add_argument('--corpus', '-c',default='gum5', choices=['gum5', 'ace2005'],
                     help='which corpus we are using, gum5 or ace2005')
 
 parser.add_argument('--datadir', '-d',default=os.path.normpath(r'./data/'),
                     help='where the entire datadir is located')
-parser.add_argument('--sourcedir', '-s',default=os.path.normpath(r'../../../../GUM/amir_gumdev/_build/target/coref/'),
+parser.add_argument('--sourcedir', '-s',default=os.path.normpath(r'../../../../GUM/amir_gumdev/_build/src/'),
                     help='where the source gum directory is located')
 
 
@@ -195,10 +195,14 @@ def fromtsv(f):
                             if line_entity_dict[ent[1]][2] == '':
                                 line_entity_dict[ent[1]][2] = ent[0]
 
-        elif line=='':
+        if line=='' or line == lines[-1]:
             try:
                 tokens.append(line_tokens)
                 entities.append(list(line_entity_dict.values()))
+                line_tokens = []
+                line_entity_dict = defaultdict(lambda: [9999, 0, ''])
+
+
             except:
                 pass
 
@@ -280,15 +284,15 @@ def toxml(tokens, entities, f):
                     fout.write('<s>\n')
 
                 for ent in [x for x in entities[line_id] if x[0]==tok_id]:
-                    fout.write('<%s>\n' % (ent[2]))
+                    fout.write('<entity entity="%s">\n' % (ent[2]))
 
                 fout.write('%s\n' % (tokens[line_id][tok_id]))
 
                 for ent in [x for x in entities[line_id] if x[1]-1 == tok_id]:
-                    fout.write('</%s>\n' % (ent[2]))
+                    fout.write('</entity>\n')
 
                 if tok_id == len(tokens[line_id]) - 1:
-                    fout.write('</s>\n\n')
+                    fout.write('</s>\n')
 
 
 
