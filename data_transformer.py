@@ -1,14 +1,14 @@
 import io, os, nltk, re, argparse, glob
 from collections import defaultdict
-import stanfordnlp
+# import stanfordnlp
 
 
 os.chdir('.')
 
 parser = argparse.ArgumentParser(description='Get GUM data')
-parser.add_argument('--inputformat', '-i',default='ace', choices=['tsv', 'ace', 'autoconllu'],
+parser.add_argument('--inputformat', '-i',default='tsv', choices=['tsv', 'ace', 'autoconllu', 'goldconllu'],
                     help='input format of GUM')
-parser.add_argument('--outputformat', '-o',default='xml', choices=['autoslim', 'ace', 'xml', 'autoconllu'],
+parser.add_argument('--outputformat', '-o',default='ace', choices=['goldslim', 'autoslim', 'ace', 'xml', 'autoconllu'],
                     help='output format of GUM')
 parser.add_argument('--corpus', '-c',default='gum5', choices=['gum5', 'ace2005'],
                     help='which corpus we are using, gum5 or ace2005')
@@ -24,11 +24,15 @@ parser.add_argument('--sourcedir', '-s',default=os.path.normpath(r'../../../../G
 
 args = parser.parse_args()
 
-listtrain = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.train'), 'r', encoding='utf8').read().strip().split('\n')
-listdev = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.dev'), 'r', encoding='utf8').read().strip().split('\n')
-listtest = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.test'), encoding='utf8').read().strip().split('\n')
+
+# listtrain = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.train'), 'r', encoding='utf8').read().strip().split('\n')
+# listdev = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.dev'), 'r', encoding='utf8').read().strip().split('\n')
+# listtest = io.open(os.path.join(args.datadir, 'split', 'gum5', 'files.test'), encoding='utf8').read().strip().split('\n')
 
 
+listtrain = io.open(os.path.join(args.datadir, 'split', 'gum5_testnoreddit', 'files.train.txt'), 'r', encoding='utf8').read().strip().split('\n')
+listdev = io.open(os.path.join(args.datadir, 'split', 'gum5_testnoreddit', 'files.dev.txt'), 'r', encoding='utf8').read().strip().split('\n')
+listtest = io.open(os.path.join(args.datadir, 'split', 'gum5_testnoreddit', 'files.test.txt'), encoding='utf8').read().strip().split('\n')
 
 
 
@@ -53,7 +57,18 @@ def makedirifnotexist(f):
 
 def removefilesindir(f):
     for f in glob.glob(os.path.join(f, '*')):
-        os.remove(f)
+        if os.path.isfile(f):
+            os.remove(f)
+
+
+def concatgoldconllu():
+    removefilesindir(os.path.join(args.datadir, 'goldconllu', args.corpus))
+    for one_f in  sorted(glob.glob(os.path.join(args.datadir, 'goldconllu', args.corpus, 'not-to-release', '*.conllu'))):
+        one_lines = io.open(one_f, 'r', encoding='utf8').read().replace('\r','').strip()
+        one_lines = re.sub(r'#[^\t\n]+\n(\n*)', r'\1', one_lines)
+
+        io.open(os.path.join(args.datadir, 'goldconllu', args.corpus, args.corpus + '.' + GUMfilename2splitset(one_f)), 'a', encoding='utf8').write(one_lines+'\n\n')
+
 
 
 
@@ -165,7 +180,7 @@ def fromtsv(f):
     entities = []
     fakeid = 10000
 
-    for line in lines:
+    for line_id, line in enumerate(lines):
         if '\t' in line:
             fields = line.strip().split('\t')
             tok_id = int(fields[0].split('-')[1])-1
@@ -195,7 +210,9 @@ def fromtsv(f):
                             if line_entity_dict[ent[1]][2] == '':
                                 line_entity_dict[ent[1]][2] = ent[0]
 
-        if line=='' or line == lines[-1]:
+        if line=='' or line_id == len(lines)-1:
+            if line_id == len(lines)-1:
+                print()
             try:
                 tokens.append(line_tokens)
                 entities.append(list(line_entity_dict.values()))
@@ -215,7 +232,7 @@ def fromtsv(f):
 
 def fromace(f):
     if isinstance(f, str):
-        lines = io.open(f, 'r', encoding='utf8').read().replace('\r', '').strip().split('\n')
+        lines = io.open(f, 'r', encoding='utf8').read().replace('\r', '').split('\n')
     elif isinstance(f, list):
         lines = f
 
@@ -242,7 +259,7 @@ def fromace(f):
 def fromconllu(f):
     if isinstance(f, str):
         lines = io.open(f, 'r', encoding='utf8').read().replace('\r', '').strip()
-        dependencies = [x.split('\n') for x in lines.split('\n\n')]
+        dependencies = [x.split('\n') for x in re.split(r'\n\n+', lines)]
     elif isinstance(f, list):
         dependencies = f
 
@@ -403,6 +420,26 @@ if __name__ == "__main__":
 
         print('o Done! Check %s for outputs.' % (slim_outputdir))
 
+
+    elif args.inputformat == 'goldconllu' and args.outputformat == 'goldslim' and args.corpus == 'gum5':
+        slim_outputdir = os.path.join(args.datadir, 'goldslim', args.corpus)
+        makedirifnotexist(slim_outputdir)
+        removefilesindir(slim_outputdir)
+
+        # concatenate gold conllu files
+        concatgoldconllu()
+
+
+
+
+        for in_f in sorted(glob.glob(os.path.join(args.datadir, 'goldconllu', args.corpus, '*'))):
+            if os.path.isfile(in_f):
+                dependencies = fromconllu(in_f)
+                _, entities = fromace(os.path.join(args.datadir, 'ace', args.corpus, os.path.basename(in_f)))
+
+                toslim(entities, dependencies, os.path.join(slim_outputdir, os.path.basename(in_f)))
+
+        print('o Done! Check %s for outputs.' % (slim_outputdir))
 
 
 

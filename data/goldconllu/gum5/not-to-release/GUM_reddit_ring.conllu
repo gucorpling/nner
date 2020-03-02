@@ -1,0 +1,1332 @@
+# newdoc id = GUM_reddit_ring
+# sent_id = GUM_reddit_ring-1
+# text = Is this ring?
+# s_type=q
+# speaker=SkoraSkora
+1	Is	be	AUX	VBZ	_	3	cop	_	_
+2	this	this	PRON	DT	_	3	nsubj	_	_
+3	ring	ring	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-2
+# text = http://vocaroo.com/i/s1tDCvWpykHC
+# s_type=frag
+# speaker=SkoraSkora
+1	http://vocaroo.com/i/s1tDCvWpykHC	http://vocaroo.com/i/s1tDCvWpykHC	PROPN	NNP	_	0	root	_	_
+
+# sent_id = GUM_reddit_ring-3
+# text = Is that ring I'm hearing?
+# s_type=q
+# speaker=SkoraSkora
+1	Is	be	AUX	VBZ	_	3	cop	_	_
+2	that	that	PRON	DT	_	3	nsubj	_	_
+3	ring	ring	NOUN	NN	_	0	root	_	_
+4	I	I	PRON	PRP	_	6	nsubj	_	SpaceAfter=No
+5	'm	be	AUX	VBP	_	6	aux	_	_
+6	hearing	hear	VERB	VBG	_	3	acl:relcl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-4
+# text = I feel I sang quite well here, but then it's often hard to find back to this voice.
+# s_type=decl
+# speaker=SkoraSkora
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	feel	feel	VERB	VBP	_	0	root	_	_
+3	I	I	PRON	PRP	_	4	nsubj	_	_
+4	sang	sing	VERB	VBD	_	2	ccomp	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	well	well	ADV	RB	_	4	advmod	_	_
+7	here	here	ADV	RB	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	but	but	CCONJ	CC	_	14	cc	_	_
+10	then	then	ADV	RB	_	14	advmod	_	_
+11	it	it	PRON	PRP	_	14	nsubj	_	SpaceAfter=No
+12	's	be	AUX	VBZ	_	14	cop	_	_
+13	often	often	ADV	RB	_	14	advmod	_	_
+14	hard	hard	ADJ	JJ	_	2	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	find	find	VERB	VB	_	14	xcomp	_	_
+17	back	back	ADV	RB	_	16	advmod	_	_
+18	to	to	ADP	TO	_	20	case	_	_
+19	this	this	DET	DT	_	20	det	_	_
+20	voice	voice	NOUN	NN	_	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-5
+# text = Are you an opera singer?
+# s_type=q
+# speaker=YouuCanSingANYTHINGH
+1	Are	be	AUX	VBP	_	5	cop	_	_
+2	you	you	PRON	PRP	_	5	nsubj	_	_
+3	an	a	DET	DT	_	4	det	_	_
+4	opera	opera	NOUN	NN	_	5	compound	_	_
+5	singer	singer	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_ring-6
+# text = Why are you concerned about "ring"?
+# s_type=wh
+# speaker=YouuCanSingANYTHINGH
+1	Why	why	SCONJ	WRB	_	4	mark	_	_
+2	are	be	AUX	VBP	_	4	aux:pass	_	_
+3	you	you	PRON	PRP	_	4	nsubj:pass	_	_
+4	concerned	concern	VERB	VBN	_	0	root	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	"	''	PUNCT	``	_	7	punct	_	SpaceAfter=No
+7	ring	ring	NOUN	NN	_	4	obl	_	SpaceAfter=No
+8	"	''	PUNCT	''	_	7	punct	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-7
+# text = I've been instructed to try developing it.
+# s_type=decl
+# speaker=SkoraSkora
+1	I	I	PRON	PRP	_	4	nsubj:pass	_	SpaceAfter=No
+2	've	have	AUX	VBP	_	4	aux	_	_
+3	been	be	AUX	VBN	_	4	aux:pass	_	_
+4	instructed	instruct	VERB	VBN	_	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	try	try	VERB	VB	_	4	xcomp	_	_
+7	developing	develop	VERB	VBG	_	6	xcomp	_	_
+8	it	it	PRON	PRP	_	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-8
+# text = I am trying to develop a generally pleasant voice, I have no clear idea about style.
+# s_type=decl
+# speaker=SkoraSkora
+1	I	I	PRON	PRP	_	3	nsubj	_	_
+2	am	be	AUX	VBP	_	3	aux	_	_
+3	trying	try	VERB	VBG	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	develop	develop	VERB	VB	_	3	xcomp	_	_
+6	a	a	DET	DT	_	9	det	_	_
+7	generally	generally	ADV	RB	_	8	advmod	_	_
+8	pleasant	pleasant	ADJ	JJ	_	9	amod	_	_
+9	voice	voice	NOUN	NN	_	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	_	12	nsubj	_	_
+12	have	have	VERB	VBP	_	3	parataxis	_	_
+13	no	no	DET	DT	Polarity=Neg	15	det	_	_
+14	clear	clear	ADJ	JJ	_	15	amod	_	_
+15	idea	idea	NOUN	NN	_	12	obj	_	_
+16	about	about	ADP	IN	_	17	case	_	_
+17	style	style	NOUN	NN	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-9
+# text = Ring is one of those things, IMO, that some dweeb voice teacher heard sitting in an audience from a real opera singer.
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	Ring	ring	NOUN	NN	_	3	nsubj	_	_
+2	is	be	AUX	VBZ	_	3	cop	_	_
+3	one	one	NUM	CD	_	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	those	those	DET	DT	_	6	det	_	_
+6	things	thing	NOUN	NNS	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	IMO	IMO	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	that	that	PRON	WDT	_	15	obj	_	_
+11	some	some	DET	DT	_	14	det	_	_
+12	dweeb	dweeb	NOUN	NN	_	14	compound	_	_
+13	voice	voice	NOUN	NN	_	14	compound	_	_
+14	teacher	teacher	NOUN	NN	_	15	nsubj	_	_
+15	heard	hear	VERB	VBD	_	6	acl:relcl	_	_
+16	sitting	sit	VERB	VBG	_	15	advcl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	an	a	DET	DT	_	19	det	_	_
+19	audience	audience	NOUN	NN	_	16	obl	_	_
+20	from	from	ADP	IN	_	24	case	_	_
+21	a	a	DET	DT	_	24	det	_	_
+22	real	real	ADJ	JJ	_	24	amod	_	_
+23	opera	opera	NOUN	NN	_	24	compound	_	_
+24	singer	singer	NOUN	NN	_	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-10
+# text = He heard a "ring" and decided to make it into a technique.
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	He	he	PRON	PRP	_	2	nsubj	_	_
+2	heard	hear	VERB	VBD	_	0	root	_	_
+3	a	a	DET	DT	_	5	det	_	_
+4	"	''	PUNCT	``	_	5	punct	_	SpaceAfter=No
+5	ring	ring	NOUN	NN	_	2	obj	_	SpaceAfter=No
+6	"	''	PUNCT	''	_	5	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	decided	decide	VERB	VBD	_	2	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	_	8	xcomp	_	_
+11	it	it	PRON	PRP	_	10	obj	_	_
+12	into	into	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	_	14	det	_	_
+14	technique	technique	NOUN	NN	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-11
+# text = First of all the term is poorly defined.
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	First	first	ADJ	JJ	_	8	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	PRON	DT	_	1	obl	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	term	term	NOUN	NN	_	8	nsubj:pass	_	_
+6	is	be	AUX	VBZ	_	8	aux:pass	_	_
+7	poorly	poorly	ADV	RB	_	8	advmod	_	_
+8	defined	define	VERB	VBN	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_ring-12
+# text = Does it mean twang?
+# s_type=q
+# speaker=YouuCanSingANYTHING
+1	Does	do	AUX	VBZ	_	3	aux	_	_
+2	it	it	PRON	PRP	_	3	nsubj	_	_
+3	mean	mean	VERB	VB	_	0	root	_	_
+4	twang	twang	NOUN	NN	_	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-13
+# text = Singer formant?
+# s_type=q
+# speaker=YouuCanSingANYTHING
+1	Singer	singer	NOUN	NN	_	2	compound	_	_
+2	formant	formant	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-14
+# text = Which harmonic?
+# s_type=wh
+# speaker=YouuCanSingANYTHING
+1	Which	which	DET	WDT	_	2	det	_	_
+2	harmonic	harmonic	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-15
+# text = Chiaroscuro?
+# s_type=q
+# speaker=YouuCanSingANYTHING
+1	Chiaroscuro	chiaroscuro	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-16
+# text = Second of all you 're not an opera singer!
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	Second	second	ADJ	JJ	_	9	advmod	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	all	all	PRON	DT	_	1	obl	_	_
+4	you	you	PRON	PRP	_	9	nsubj	_	_
+5	're	be	AUX	VBP	_	9	cop	_	_
+6	not	not	PART	RB	Polarity=Neg	9	advmod	_	_
+7	an	a	DET	DT	_	9	det	_	_
+8	opera	opera	NOUN	NN	_	9	compound	_	_
+9	singer	singer	NOUN	NN	_	0	root	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = GUM_reddit_ring-17
+# text = Ring is characteristic of operatic voices.
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	Ring	ring	NOUN	NN	_	3	nsubj	_	_
+2	is	be	AUX	VBZ	_	3	cop	_	_
+3	characteristic	characteristic	ADJ	JJ	_	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	operatic	operatic	ADJ	JJ	_	6	amod	_	_
+6	voices	voice	NOUN	NNS	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-18
+# text = Have you ever heard a contemporary pop or rock singer with a "ring" in their voice?
+# s_type=q
+# speaker=YouuCanSingANYTHING
+1	Have	have	AUX	VBP	_	4	aux	_	_
+2	you	you	PRON	PRP	_	4	nsubj	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	heard	hear	VERB	VBN	_	0	root	_	_
+5	a	a	DET	DT	_	10	det	_	_
+6	contemporary	contemporary	ADJ	JJ	_	10	amod	_	_
+7	pop	pop	NOUN	NN	_	10	compound	_	_
+8	or	or	CCONJ	CC	_	7	cc	_	_
+9	rock	rock	NOUN	NN	_	10	compound	_	_
+10	singer	singer	NOUN	NN	_	4	obj	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	_	14	det	_	_
+13	"	''	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	ring	ring	NOUN	NN	_	10	nmod	_	SpaceAfter=No
+15	"	''	PUNCT	''	_	14	punct	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	their	their	PRON	PRP$	_	18	nmod:poss	_	_
+18	voice	voice	NOUN	NN	_	14	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-19
+# text = No!
+# s_type=intj
+# speaker=YouuCanSingANYTHING
+1	No	No	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-20
+# text = I would just stop worrying about trying to do shit which is not relevant to the style you 're trying to learn.
+# s_type=sub
+# speaker=YouuCanSingANYTHING
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	would	would	AUX	MD	_	4	aux	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	stop	stop	VERB	VB	_	0	root	_	_
+5	worrying	worry	VERB	VBG	_	4	xcomp	_	_
+6	about	about	SCONJ	IN	_	7	mark	_	_
+7	trying	try	VERB	VBG	_	5	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	_	7	xcomp	_	_
+10	shit	shit	NOUN	NN	_	9	obj	_	_
+11	which	which	PRON	WDT	_	14	nsubj	_	_
+12	is	be	AUX	VBZ	_	14	cop	_	_
+13	not	not	PART	RB	Polarity=Neg	14	advmod	_	_
+14	relevant	relevant	ADJ	JJ	_	10	acl:relcl	_	_
+15	to	to	ADP	TO	_	17	case	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	style	style	NOUN	NN	_	14	obl	_	_
+18	you	you	PRON	PRP	_	20	nsubj	_	_
+19	're	be	AUX	VBP	_	20	aux	_	_
+20	trying	try	VERB	VBG	_	17	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	learn	learn	VERB	VB	_	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-21
+# text = Focus on singing whatever it is you want to sing ... not on singing opera!
+# s_type=imp
+# speaker=YouuCanSingANYTHING
+1	Focus	focus	VERB	VB	_	12	dep	_	_
+2	on	on	SCONJ	IN	_	3	mark	_	_
+3	singing	sing	VERB	VBG	_	1	advcl	_	_
+4	whatever	whatever	PRON	WDT	_	6	obj	_	_
+5	it	it	PRON	PRP	_	6	nsubj	_	_
+6	is	be	VERB	VBZ	_	3	ccomp	_	_
+7	you	you	PRON	PRP	_	8	nsubj	_	_
+8	want	want	VERB	VBP	_	6	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	sing	sing	VERB	VB	_	8	xcomp	_	_
+11	...	...	PUNCT	:	_	1	punct	_	_
+12	not	not	PART	RB	_	0	root	_	_
+13	on	on	SCONJ	IN	_	14	mark	_	_
+14	singing	sing	VERB	VBG	_	12	advcl	_	_
+15	opera	opera	NOUN	NN	_	14	obj	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	12	punct	_	_
+
+# sent_id = GUM_reddit_ring-22
+# text = Alright.
+# s_type=frag
+# speaker=SkoraSkora
+1	Alright	alright	ADV	RB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-23
+# text = Do you notice anything I should work on in particular?
+# s_type=q
+# speaker=SkoraSkora
+1	Do	do	AUX	VBP	_	3	aux	_	_
+2	you	you	PRON	PRP	_	3	nsubj	_	_
+3	notice	notice	VERB	VB	_	0	root	_	_
+4	anything	anything	NOUN	NN	_	3	obj	_	_
+5	I	I	PRON	PRP	_	7	nsubj	_	_
+6	should	should	AUX	MD	_	7	aux	_	_
+7	work	work	VERB	VB	_	4	acl:relcl	_	_
+8	on	on	SCONJ	IN	_	10	mark	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	particular	particular	ADJ	JJ	_	7	advcl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-24
+# text = Is it possible from just a recording?
+# s_type=q
+# speaker=SkoraSkora
+1	Is	be	AUX	VBZ	_	3	cop	_	_
+2	it	it	PRON	PRP	_	3	nsubj	_	_
+3	possible	possible	ADJ	JJ	_	0	root	_	_
+4	from	from	ADP	IN	_	7	case	_	_
+5	just	just	ADV	RB	_	7	advmod	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	recording	recording	NOUN	NN	_	3	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-25
+# text = How much do you practice? =p.
+# s_type=wh
+# speaker=YouuCanSingANYTHING
+1	How	How	SCONJ	WRB	_	2	advmod	_	_
+2	much	much	ADV	RB	_	3	amod	_	_
+3	do	do	AUX	VBP	_	5	aux	_	_
+4	you	you	PRON	PRP	_	5	nsubj	_	_
+5	practice	practice	VERB	VB	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+7	=p	=p	SYM	SYM	_	5	discourse	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_ring-26
+# text = How many days a week and hour many hours?
+# s_type=wh
+# speaker=YouuCanSingANYTHING
+1	How	How	SCONJ	WRB	_	2	advmod	_	_
+2	many	many	ADJ	JJ	_	3	amod	_	_
+3	days	day	NOUN	NNS	_	0	root	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	week	week	NOUN	NN	_	3	nmod:npmod	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	hour	hour	NOUN	NN	_	9	compound	_	_
+8	many	many	ADJ	JJ	_	9	amod	_	_
+9	hours	hour	NOUN	NNS	_	5	conj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-27
+# text = Whenever I have the apartment to myself.
+# s_type=other
+# speaker=SkoraSkora
+1	Whenever	Whenever	SCONJ	WRB	_	3	advmod	_	_
+2	I	I	PRON	PRP	_	3	nsubj	_	_
+3	have	have	VERB	VBP	_	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	apartment	apartment	NOUN	NN	_	3	obj	_	_
+6	to	to	ADP	TO	_	7	case	_	_
+7	myself	myself	PRON	PRP	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-28
+# text = Usually twenty - thirty minutes.
+# s_type=frag
+# speaker=SkoraSkora
+1	Usually	usually	ADV	RB	_	5	advmod	_	_
+2	twenty	twenty	NUM	CD	_	5	nummod	_	_
+3	-	-	ADP	TO	_	4	case	_	_
+4	thirty	thirty	NUM	CD	_	2	nmod	_	_
+5	minutes	minute	NOUN	NNS	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_ring-29
+# text = Couple times a week I get several sessions that are longer.
+# s_type=decl
+# speaker=SkoraSkora
+1	Couple	couple	NOUN	NN	_	2	compound	_	_
+2	times	time	NOUN	NNS	_	0	root	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	week	week	NOUN	NN	_	2	nmod:npmod	_	_
+5	I	I	PRON	PRP	_	6	nsubj	_	_
+6	get	get	VERB	VBP	_	2	acl:relcl	_	_
+7	several	several	ADJ	JJ	_	8	amod	_	_
+8	sessions	session	NOUN	NNS	_	6	obj	_	_
+9	that	that	PRON	WDT	_	11	nsubj	_	_
+10	are	be	AUX	VBP	_	11	cop	_	_
+11	longer	long	ADJ	JJR	_	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-30
+# text = Do more practicing.
+# s_type=imp
+# speaker=YouuCanSingANYTHING
+1	Do	do	VERB	VB	_	0	root	_	_
+2	more	more	ADJ	JJR	_	3	amod	_	_
+3	practicing	practicing	NOUN	NN	_	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-31
+# text = Got taget over not wanting to practice when people are around =p.
+# s_type=other
+# speaker=YouuCanSingANYTHING
+1	Got	get	VERB	VBN	_	0	root	_	_
+2	ta	ta	PART	TO	_	3	aux	_	SpaceAfter=No
+3	get	get	VERB	VB	_	1	xcomp	_	_
+4	over	over	SCONJ	IN	_	6	mark	_	_
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	_
+6	wanting	want	VERB	VBG	_	3	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	practice	practice	VERB	VB	_	6	xcomp	_	_
+9	when	when	SCONJ	WRB	_	12	mark	_	_
+10	people	people	NOUN	NNS	_	12	nsubj	_	_
+11	are	be	AUX	VBP	_	12	cop	_	_
+12	around	around	ADV	RB	_	8	advcl	_	_
+13	=p	=p	SYM	SYM	_	1	discourse	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-32
+# text = That's really the only proven way to get results.
+# s_type=decl
+# speaker=YouuCanSingANYTHING
+1	That	that	PRON	DT	_	7	nsubj	_	SpaceAfter=No
+2	's	be	AUX	VBZ	_	7	cop	_	_
+3	really	really	ADV	RB	_	7	advmod	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	only	only	ADV	RB	_	7	advmod	_	_
+6	proven	prove	VERB	VBN	_	7	amod	_	_
+7	way	way	NOUN	NN	_	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	_	7	acl	_	_
+10	results	result	NOUN	NNS	_	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_ring-33
+# text = Practice.
+# s_type=frag
+# speaker=YouuCanSingANYTHING
+1	Practice	practice	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-34
+# text = If you want a ring ... I believe you have to use a strong chest dominant sound.
+# s_type=decl
+# speaker=LowKeyPocketMonster
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	_	3	nsubj	_	_
+3	want	want	VERB	VBP	_	8	advcl	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	ring	ring	NOUN	NN	_	3	obj	_	_
+6	...	...	PUNCT	:	_	3	punct	_	_
+7	I	I	PRON	PRP	_	8	nsubj	_	_
+8	believe	believe	VERB	VBP	_	0	root	_	_
+9	you	you	PRON	PRP	_	10	nsubj	_	_
+10	have	have	VERB	VBP	_	8	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	use	use	VERB	VB	_	10	xcomp	_	_
+13	a	a	DET	DT	_	17	det	_	_
+14	strong	strong	ADJ	JJ	_	17	amod	_	_
+15	chest	chest	NOUN	NN	_	16	compound	_	_
+16	dominant	dominant	ADJ	JJ	_	17	amod	_	_
+17	sound	sound	NOUN	NN	_	12	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_ring-35
+# text = Try an EE vowel in the comfortable area of your voice.
+# s_type=imp
+# speaker=LowKeyPocketMonster
+1	Try	try	VERB	VB	_	0	root	_	_
+2	an	a	DET	DT	_	4	det	_	_
+3	EE	EE	NOUN	NN	_	4	compound	_	_
+4	vowel	vowel	NOUN	NN	_	1	obj	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	comfortable	comfortable	ADJ	JJ	_	8	amod	_	_
+8	area	area	NOUN	NN	_	1	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	your	your	PRON	PRP$	_	11	nmod:poss	_	_
+11	voice	voice	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-36
+# text = Like right here.
+# s_type=frag
+# speaker=LowKeyPocketMonster
+1	Like	like	ADP	IN	_	3	case	_	_
+2	right	right	ADV	RB	_	3	advmod	_	_
+3	here	here	ADV	RB	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-37
+# text = You have to do these alternate vowels right here in this ipa chart.
+# s_type=sub
+# speaker=LowKeyPocketMonster
+1	You	you	PRON	PRP	_	2	nsubj	_	_
+2	have	have	VERB	VBP	_	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	do	do	VERB	VB	_	2	xcomp	_	_
+5	these	these	DET	DT	_	7	det	_	_
+6	alternate	alternate	ADJ	JJ	_	7	amod	_	_
+7	vowels	vowel	NOUN	NNS	_	4	obj	_	_
+8	right	right	ADV	RB	_	9	advmod	_	_
+9	here	here	ADV	RB	_	4	advmod	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	this	this	DET	DT	_	13	det	_	_
+12	ipa	ipa	NOUN	NN	_	13	compound	_	_
+13	chart	chart	NOUN	NN	_	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-38
+# text = so instead of 'i' it'd be 'Y' (ee as in sweet = i).
+# s_type=sub
+# speaker=LowKeyPocketMonster
+1	so	so	ADV	RB	_	11	advmod	_	_
+2	instead	instead	ADV	RB	_	5	advmod	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	'	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+5	i	i	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	''	_	5	punct	_	_
+7	it	it	PRON	PRP	_	11	nsubj	_	SpaceAfter=No
+8	'd	will	AUX	MD	_	11	aux	_	_
+9	be	be	AUX	VB	_	11	cop	_	_
+10	'	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	Y	Y	NOUN	NN	_	0	root	_	SpaceAfter=No
+12	'	'	PUNCT	''	_	11	punct	_	_
+13	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+14	ee	ee	NOUN	NN	_	11	parataxis	_	_
+15	as	as	SCONJ	IN	_	17	mark	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	sweet	sweet	ADJ	JJ	_	14	advcl	_	_
+18	=	=	SYM	SYM	_	19	dep	_	_
+19	i	i	NOUN	NN	_	17	acl:relcl	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = GUM_reddit_ring-39
+# text = a -> ɒ.
+# s_type=other
+# speaker=LowKeyPocketMonster
+1	a	a	NOUN	NN	_	3	nsubj	_	_
+2	->	->	SYM	SYM	_	3	dep	_	_
+3	ɒ	ɒ	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-40
+# text = If you try to sound like an opera singer, it'll just come to you I guess (if you have the ear).
+# s_type=decl
+# speaker=LowKeyPocketMonster
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	_	3	nsubj	_	_
+3	try	try	VERB	VBP	_	14	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	sound	sound	VERB	VB	_	3	xcomp	_	_
+6	like	like	ADP	IN	_	9	case	_	_
+7	an	a	DET	DT	_	9	det	_	_
+8	opera	opera	NOUN	NN	_	9	compound	_	_
+9	singer	singer	NOUN	NN	_	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	it	it	PRON	PRP	_	14	nsubj	_	SpaceAfter=No
+12	'll	will	AUX	MD	_	14	aux	_	_
+13	just	just	ADV	RB	_	14	advmod	_	_
+14	come	come	VERB	VB	_	0	root	_	_
+15	to	to	ADP	TO	_	16	case	_	_
+16	you	you	PRON	PRP	_	14	obl	_	_
+17	I	I	PRON	PRP	_	18	nsubj	_	_
+18	guess	guess	VERB	VBP	_	16	acl:relcl	_	_
+19	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
+20	if	if	SCONJ	IN	_	22	mark	_	_
+21	you	you	PRON	PRP	_	22	nsubj	_	_
+22	have	have	VERB	VBP	_	14	advcl	_	_
+23	the	the	DET	DT	_	24	det	_	_
+24	ear	ear	NOUN	NN	_	22	obj	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	22	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = GUM_reddit_ring-41
+# text = Won't really happen if you try to sound like a pop singer unless you 're like Josh Groban, which many say he's a popera singer.
+# s_type=other
+# speaker=LowKeyPocketMonster
+1	Wo	will	AUX	MD	_	4	aux	_	SpaceAfter=No
+2	n't	not	PART	RB	Polarity=Neg	4	advmod	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	happen	happen	VERB	VB	_	0	root	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	_	7	nsubj	_	_
+7	try	try	VERB	VBP	_	4	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	sound	sound	VERB	VB	_	7	xcomp	_	_
+10	like	like	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	_	13	det	_	_
+12	pop	pop	NOUN	NN	_	13	compound	_	_
+13	singer	singer	NOUN	NN	_	9	obl	_	_
+14	unless	unless	SCONJ	IN	_	18	mark	_	_
+15	you	you	PRON	PRP	_	18	nsubj	_	_
+16	're	be	AUX	VBP	_	18	cop	_	_
+17	like	like	ADP	IN	_	18	case	_	_
+18	Josh	Josh	PROPN	NNP	_	9	advcl	_	_
+19	Groban	Groban	PROPN	NNP	_	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	which	which	PRON	WDT	_	23	obj	_	_
+22	many	many	ADJ	JJ	_	23	nsubj	_	_
+23	say	say	VERB	VBP	_	18	acl:relcl	_	_
+24	he	he	PRON	PRP	_	28	nsubj	_	SpaceAfter=No
+25	's	be	AUX	VBZ	_	28	cop	_	_
+26	a	a	DET	DT	_	28	det	_	_
+27	popera	popera	NOUN	NN	_	28	compound	_	_
+28	singer	singer	NOUN	NN	_	23	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-42
+# text = lol
+# s_type=intj
+# speaker=LowKeyPocketMonster
+1	lol	lol	ADV	RB	_	0	root	_	_
+
+# sent_id = GUM_reddit_ring-43
+# text = Is there a particular specific example or explaination your can give on the type of' ring' you are referring to?
+# s_type=q
+# speaker=singerchoco
+1	Is	be	AUX	VBZ	_	6	cop	_	_
+2	there	there	ADV	RB	_	6	nsubj	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	particular	particular	ADJ	JJ	_	6	amod	_	_
+5	specific	specific	ADJ	JJ	_	6	amod	_	_
+6	example	example	NOUN	NN	_	0	root	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	explaination	explaination	NOUN	NN	_	6	conj	_	Typo=Yes
+9	your	you	PRON	PRP	_	11	nsubj	_	Typo=Yes
+10	can	can	AUX	MD	_	11	aux	_	_
+11	give	give	VERB	VB	_	6	acl:relcl	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	type	type	NOUN	NN	_	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	SpaceAfter=No
+16	'	'	PUNCT	''	_	17	punct	_	_
+17	ring	ring	NOUN	NN	_	11	obl	_	SpaceAfter=No
+18	'	'	PUNCT	''	_	17	punct	_	_
+19	you	you	PRON	PRP	_	21	nsubj	_	_
+20	are	be	AUX	VBP	_	21	aux	_	_
+21	referring	refer	VERB	VBG	_	17	acl:relcl	_	_
+22	to	to	PART	TO	_	21	obl	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_ring-44
+# text = Are you referring to the slight ping in certain people's voices that give it a clarity or you talking about the slight' oomph' in certain people's voices?
+# s_type=q
+# speaker=singerchoco
+1	Are	be	AUX	VBP	_	3	aux	_	_
+2	you	you	PRON	PRP	_	3	nsubj	_	_
+3	referring	refer	VERB	VBG	_	0	root	_	_
+4	to	to	ADP	TO	_	7	case	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	slight	slight	ADJ	JJ	_	7	amod	_	_
+7	ping	ping	NOUN	NN	_	3	obl	_	_
+8	in	in	ADP	IN	_	12	case	_	_
+9	certain	certain	ADJ	JJ	_	10	amod	_	_
+10	people	people	NOUN	NNS	_	12	nmod:poss	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	_
+12	voices	voice	NOUN	NNS	_	7	nmod	_	_
+13	that	that	PRON	WDT	_	14	nsubj	_	_
+14	give	give	VERB	VBP	_	7	acl:relcl	_	_
+15	it	it	PRON	PRP	_	14	iobj	_	_
+16	a	a	DET	DT	_	17	det	_	_
+17	clarity	clarity	NOUN	NN	_	14	obj	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	you	you	PRON	PRP	_	17	conj	_	_
+20	talking	talk	VERB	VBG	_	19	acl	_	_
+21	about	about	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	slight	slight	ADJ	JJ	_	25	nmod:poss	_	SpaceAfter=No
+24	'	's	PUNCT	''	_	25	punct	_	_
+25	oomph	oomph	NOUN	NN	_	20	obl	_	SpaceAfter=No
+26	'	'	PUNCT	''	_	25	punct	_	_
+27	in	in	ADP	IN	_	31	case	_	_
+28	certain	certain	ADJ	JJ	_	29	amod	_	_
+29	people	people	NOUN	NNS	_	31	nmod:poss	_	SpaceAfter=No
+30	's	's	PART	POS	_	29	case	_	_
+31	voices	voice	NOUN	NNS	_	14	obl	_	SpaceAfter=No
+32	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-45
+# text = Either way, yeah i think it is a pretty decent sounding voice.
+# s_type=decl
+# speaker=singerchoco
+1	Either	either	DET	DT	_	2	det	_	_
+2	way	way	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	yeah	yeah	INTJ	UH	_	6	discourse	_	_
+5	i	I	PRON	PRP	_	6	nsubj	_	Typo=Yes
+6	think	think	VERB	VBP	_	2	parataxis	_	_
+7	it	it	PRON	PRP	_	13	nsubj	_	_
+8	is	be	AUX	VBZ	_	13	cop	_	_
+9	a	a	DET	DT	_	13	det	_	_
+10	pretty	pretty	ADV	RB	_	11	advmod	_	_
+11	decent	decent	ADJ	JJ	_	13	amod	_	_
+12	sounding	sound	VERB	VBG	_	13	amod	_	_
+13	voice	voice	NOUN	NN	_	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-46
+# text = You mentioned that your teacher is asking you to open the throat and i would like to know what he / shesaid to instruct you to open the throat.
+# s_type=multiple
+# speaker=singerchoco
+1	You	you	PRON	PRP	_	2	nsubj	_	_
+2	mentioned	mention	VERB	VBD	_	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	your	your	PRON	PRP$	_	5	nmod:poss	_	_
+5	teacher	teacher	NOUN	NN	_	7	nsubj	_	_
+6	is	be	AUX	VBZ	_	7	aux	_	_
+7	asking	ask	VERB	VBG	_	2	ccomp	_	_
+8	you	you	PRON	PRP	_	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	open	open	VERB	VB	_	7	xcomp	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	throat	throat	NOUN	NN	_	10	obj	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	i	I	PRON	PRP	_	16	nsubj	_	Typo=Yes
+15	would	would	AUX	MD	_	16	aux	_	_
+16	like	like	VERB	VB	_	2	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	know	know	VERB	VB	_	16	xcomp	_	_
+19	what	what	PRON	WP	_	23	obj	_	_
+20	he	he	PRON	PRP	_	18	obj	_	_
+21	/	/	SYM	SYM	_	23	dep	_	_
+22	she	she	PRON	PRP	_	18	obj	_	SpaceAfter=No
+23	said	say	VERB	VBD	_	18	xcomp	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	instruct	instruct	VERB	VB	_	23	xcomp	_	_
+26	you	you	PRON	PRP	_	25	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	open	open	VERB	VB	_	25	xcomp	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	throat	throat	NOUN	NN	_	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-47
+# text = What i am noticing is that the vowel is tending towards the 'pushed' and spread side possibly from a slight over emphasis on the opening of the throat.
+# s_type=decl
+# speaker=singerchoco
+1	What	What	PRON	WP	_	4	obj	_	_
+2	i	I	PRON	PRP	_	4	nsubj	_	Typo=Yes
+3	am	be	AUX	VBP	_	4	aux	_	_
+4	noticing	notice	VERB	VBG	_	5	csubj	_	_
+5	is	be	VERB	VBZ	_	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	vowel	vowel	NOUN	NN	_	10	nsubj	_	_
+9	is	be	AUX	VBZ	_	10	aux	_	_
+10	tending	tend	VERB	VBG	_	5	ccomp	_	_
+11	towards	towards	ADP	IN	_	18	case	_	_
+12	the	the	DET	DT	_	18	det	_	_
+13	'	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	pushed	push	VERB	VBN	_	18	amod	_	SpaceAfter=No
+15	'	'	PUNCT	''	_	14	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	spread	spread	VERB	VBN	_	14	conj	_	_
+18	side	side	NOUN	NN	_	10	obl	_	_
+19	possibly	possibly	ADV	RB	_	10	advmod	_	_
+20	from	from	ADP	IN	_	24	case	_	_
+21	a	a	DET	DT	_	24	det	_	_
+22	slight	slight	ADJ	JJ	_	24	amod	_	_
+23	over	over	ADJ	JJ	_	24	amod	_	_
+24	emphasis	emphasis	NOUN	NN	_	10	obl	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	_	27	det	_	_
+27	opening	opening	NOUN	NN	_	24	nmod	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	throat	throat	NOUN	NN	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_ring-48
+# text = Here is the key, you need to both have an open / relaxed throat with a clear sound.
+# s_type=decl
+# speaker=singerchoco
+1	Here	here	ADV	RB	_	4	nsubj	_	_
+2	is	be	AUX	VBZ	_	4	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	key	key	NOUN	NN	_	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	_	7	nsubj	_	_
+7	need	need	VERB	VBP	_	0	root	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	both	both	PRON	DT	_	10	obl:npmod	_	_
+10	have	have	VERB	VB	_	7	xcomp	_	_
+11	an	a	DET	DT	_	12	det	_	_
+12	open	open	ADJ	JJ	_	15	amod	_	_
+13	/	/	SYM	SYM	_	12	dep	_	_
+14	relaxed	relax	VERB	VBN	_	15	amod	_	_
+15	throat	throat	NOUN	NN	_	10	obj	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	_	19	det	_	_
+18	clear	clear	ADJ	JJ	_	19	amod	_	_
+19	sound	sound	NOUN	NN	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_ring-49
+# text = A clear sound being a sound with clarity and focus or some would term to as 'ping'.
+# s_type=decl
+# speaker=singerchoco
+1	A	a	DET	DT	_	3	det	_	_
+2	clear	clear	ADJ	JJ	_	3	amod	_	_
+3	sound	sound	NOUN	NN	_	0	root	_	_
+4	being	be	AUX	VBG	_	6	cop	_	_
+5	a	a	DET	DT	_	6	det	_	_
+6	sound	sound	NOUN	NN	_	3	advcl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	clarity	clarity	NOUN	NN	_	6	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	focus	focus	NOUN	NN	_	8	conj	_	_
+11	or	or	CCONJ	CC	_	14	cc	_	_
+12	some	some	PRON	DT	_	14	nsubj	_	_
+13	would	would	AUX	MD	_	14	aux	_	_
+14	term	term	VERB	VB	_	6	conj	_	_
+15	to	to	PART	TO	_	14	obl	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	'	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	ping	ping	NOUN	NN	_	14	obl	_	SpaceAfter=No
+19	'	'	PUNCT	''	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-50
+# text = One way you can do it is pretty simple.
+# s_type=sub
+# speaker=singerchoco
+1	One	One	NUM	CD	_	2	nummod	_	_
+2	way	way	NOUN	NN	_	9	nsubj	_	_
+3	you	you	PRON	PRP	_	5	nsubj	_	_
+4	can	can	AUX	MD	_	5	aux	_	_
+5	do	do	VERB	VB	_	2	acl:relcl	_	_
+6	it	it	PRON	PRP	_	5	obj	_	_
+7	is	be	AUX	VBZ	_	9	cop	_	_
+8	pretty	pretty	ADV	RB	_	9	advmod	_	_
+9	simple	simple	ADJ	JJ	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = GUM_reddit_ring-51
+# text = Simply do 2 sets of scales on the same key.
+# s_type=imp
+# speaker=singerchoco
+1	Simply	simply	ADV	RB	_	2	advmod	_	_
+2	do	do	VERB	VB	_	0	root	_	_
+3	2	2	NUM	CD	_	4	nummod	_	Typo=Yes
+4	sets	set	NOUN	NNS	_	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	scales	scale	NOUN	NNS	_	4	nmod	_	_
+7	on	on	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	same	same	ADJ	JJ	_	10	amod	_	_
+10	key	key	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_ring-52
+# text = The do - mi - re - fa - mi - so - fa - re - mi - do - re - ti - do (the one you do on the recording).
+# s_type=frag
+# speaker=singerchoco
+1	The	the	DET	DT	_	2	det	_	_
+2	do	do	X	FW	_	26	compound	_	_
+3	-	-	PUNCT	:	_	2	punct	_	_
+4	mi	mi	X	FW	_	26	compound	_	_
+5	-	-	PUNCT	:	_	4	punct	_	_
+6	re	re	X	FW	_	26	compound	_	_
+7	-	-	PUNCT	:	_	6	punct	_	_
+8	fa	fa	X	FW	_	26	compound	_	_
+9	-	-	PUNCT	:	_	8	punct	_	_
+10	mi	mi	X	FW	_	26	compound	_	_
+11	-	-	PUNCT	:	_	10	punct	_	_
+12	so	so	X	FW	_	26	compound	_	_
+13	-	-	PUNCT	:	_	12	punct	_	_
+14	fa	fa	X	FW	_	26	compound	_	_
+15	-	-	PUNCT	:	_	14	punct	_	_
+16	re	re	X	FW	_	26	compound	_	_
+17	-	-	PUNCT	:	_	16	punct	_	_
+18	mi	mi	X	FW	_	26	compound	_	_
+19	-	-	PUNCT	:	_	18	punct	_	_
+20	do	do	X	FW	_	26	compound	_	_
+21	-	-	PUNCT	:	_	20	punct	_	_
+22	re	re	X	FW	_	26	compound	_	_
+23	-	-	PUNCT	:	_	22	punct	_	_
+24	ti	ti	X	FW	_	26	compound	_	_
+25	-	-	PUNCT	:	_	24	punct	_	_
+26	do	do	X	FW	_	0	root	_	_
+27	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+28	the	the	DET	DT	_	29	det	_	_
+29	one	one	NUM	CD	_	26	appos	_	_
+30	you	you	PRON	PRP	_	31	nsubj	_	_
+31	do	do	VERB	VBP	_	29	acl:relcl	_	_
+32	on	on	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	_	34	det	_	_
+34	recording	recording	NOUN	NN	_	31	obl	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	_	29	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = GUM_reddit_ring-53
+# text = Do it twice.
+# s_type=imp
+# speaker=singerchoco
+1	Do	do	VERB	VB	_	0	root	_	_
+2	it	it	PRON	PRP	_	1	obj	_	_
+3	twice	twice	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-54
+# text = First on a hum / ngsound and then on the second scale open the vowel in either an 'EE' or an 'Ah'.
+# s_type=imp
+# speaker=singerchoco
+1	First	first	ADV	RB	_	7	advmod	_	_
+2	on	on	ADP	IN	_	7	case	_	_
+3	a	a	DET	DT	_	4	det	_	_
+4	hum	hum	NOUN	NN	_	7	compound	_	_
+5	/	/	SYM	SYM	_	6	cc	_	_
+6	ng	ng	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	sound	sound	NOUN	NN	_	14	obl	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	then	then	ADV	RB	_	13	advmod	_	_
+10	on	on	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	second	second	ADJ	JJ	_	13	amod	_	_
+13	scale	scale	NOUN	NN	_	2	conj	_	_
+14	open	open	VERB	VB	_	0	root	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	vowel	vowel	NOUN	NN	_	14	obj	_	_
+17	in	in	ADP	IN	_	21	case	_	_
+18	either	either	CCONJ	CC	_	21	cc:preconj	_	_
+19	an	a	DET	DT	_	21	det	_	_
+20	'	'	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	EE	EE	NOUN	NN	_	14	obl	_	SpaceAfter=No
+22	'	'	PUNCT	''	_	21	punct	_	_
+23	or	or	CCONJ	CC	_	26	cc	_	_
+24	an	a	DET	DT	_	26	det	_	_
+25	'	'	PUNCT	``	_	26	punct	_	SpaceAfter=No
+26	Ah	ah	NOUN	NN	_	21	conj	_	SpaceAfter=No
+27	'	'	PUNCT	''	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = GUM_reddit_ring-55
+# text = Do either the hum or the 'ng'.
+# s_type=imp
+# speaker=singerchoco
+1	Do	do	VERB	VB	_	0	root	_	_
+2	either	either	CCONJ	RB	_	4	cc:preconj	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	hum	hum	NOUN	NN	_	1	obj	_	_
+5	or	or	CCONJ	CC	_	8	cc	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	'	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+8	ng	ng	NOUN	NN	_	4	conj	_	SpaceAfter=No
+9	'	'	PUNCT	''	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_ring-56
+# text = Whichever is more comfortable for you.
+# s_type=decl
+# speaker=singerchoco
+1	Whichever	whichever	PRON	WDT	_	4	nsubj	_	_
+2	is	be	AUX	VBZ	_	4	cop	_	_
+3	more	more	ADV	RBR	_	4	advmod	_	_
+4	comfortable	comfortable	ADJ	JJ	_	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	_	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-57
+# text = The 'ng' is basically a sustained 'ng' pronunciation as in the word 'sing' or 'ring'.
+# s_type=decl
+# speaker=singerchoco
+1	The	the	DET	DT	_	3	det	_	_
+2	'	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	ng	ng	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+4	'	'	PUNCT	''	_	3	punct	_	_
+5	is	be	AUX	VBZ	_	7	cop	_	_
+6	basically	basically	ADV	RB	_	7	advmod	_	_
+7	a	a	PRON	DT	_	0	root	_	_
+8	sustained	sustain	VERB	VBN	_	7	acl	_	_
+9	'	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	ng	ng	NOUN	NN	_	12	compound	_	SpaceAfter=No
+11	'	'	PUNCT	''	_	10	punct	_	_
+12	pronunciation	pronunciation	NOUN	NN	_	8	obj	_	_
+13	as	as	SCONJ	IN	_	18	mark	_	_
+14	in	in	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	word	word	NOUN	NN	_	18	compound	_	_
+17	'	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	sing	sing	NOUN	NN	_	12	advcl	_	SpaceAfter=No
+19	'	'	PUNCT	''	_	18	punct	_	_
+20	or	or	CCONJ	CC	_	22	cc	_	_
+21	'	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
+22	ring	ring	NOUN	NN	_	18	conj	_	SpaceAfter=No
+23	'	'	PUNCT	''	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_ring-58
+# text = Some also would call this an open hum.
+# s_type=sub
+# speaker=singerchoco
+1	Some	some	PRON	DT	_	4	nsubj	_	_
+2	also	also	ADV	RB	_	4	advmod	_	_
+3	would	would	AUX	MD	_	4	aux	_	_
+4	call	call	VERB	VB	_	0	root	_	_
+5	this	this	PRON	DT	_	8	det:predet	_	_
+6	an	a	DET	DT	_	8	det	_	_
+7	open	open	ADJ	JJ	_	8	amod	_	_
+8	hum	hum	NOUN	NN	_	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_ring-59
+# text = Then on the hum / ng, try to find a clear buzzing sensation in the front of your face and at the lips if you are doing a hum.
+# s_type=imp
+# speaker=singerchoco
+1	Then	then	ADV	RB	_	8	advmod	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	hum	hum	NOUN	NN	_	8	obl	_	_
+5	/	/	SYM	SYM	_	6	cc	_	_
+6	ng	ng	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	try	try	VERB	VB	_	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	find	find	VERB	VB	_	8	xcomp	_	_
+11	a	a	DET	DT	_	14	det	_	_
+12	clear	clear	ADJ	JJ	_	14	amod	_	_
+13	buzzing	buzz	VERB	VBG	_	14	amod	_	_
+14	sensation	sensation	NOUN	NN	_	10	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	front	front	NOUN	NN	_	10	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	your	your	PRON	PRP$	_	20	nmod:poss	_	_
+20	face	face	NOUN	NN	_	17	nmod	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	_	24	det	_	_
+24	lips	lip	NOUN	NNS	_	15	conj	_	_
+25	if	if	SCONJ	IN	_	28	mark	_	_
+26	you	you	PRON	PRP	_	28	nsubj	_	_
+27	are	be	AUX	VBP	_	28	aux	_	_
+28	doing	do	VERB	VBG	_	8	advcl	_	_
+29	a	a	DET	DT	_	30	det	_	_
+30	hum	hum	NOUN	NN	_	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_ring-60
+# text = Do not force the sensation, focus on simply humming and the sensation should materialize by itself.
+# s_type=imp
+# speaker=singerchoco
+1	Do	do	AUX	VB	_	3	aux	_	_
+2	not	not	PART	RB	Polarity=Neg	3	advmod	_	_
+3	force	force	VERB	VB	_	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	sensation	sensation	NOUN	NN	_	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	focus	focus	VERB	VB	_	3	parataxis	_	_
+8	on	on	SCONJ	IN	_	10	mark	_	_
+9	simply	simply	ADV	RB	_	10	advmod	_	_
+10	humming	hum	VERB	VBG	_	7	advcl	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	sensation	sensation	NOUN	NN	_	15	nsubj	_	_
+14	should	should	AUX	MD	_	15	aux	_	_
+15	materialize	materialize	VERB	VB	_	3	conj	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	itself	itself	PRON	PRP	_	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-61
+# text = Then simply try to keep this same clarity or 'buzz' when you open the mouth into the EE / AHvowel.
+# s_type=imp
+# speaker=singerchoco
+1	Then	then	ADV	RB	_	3	advmod	_	_
+2	simply	simply	ADV	RB	_	3	advmod	_	_
+3	try	try	VERB	VB	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	keep	keep	VERB	VB	_	3	xcomp	_	_
+6	this	this	DET	DT	_	8	det	_	_
+7	same	same	ADJ	JJ	_	8	amod	_	_
+8	clarity	clarity	NOUN	NN	_	5	obj	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	'	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	buzz	buzz	NOUN	NN	_	8	conj	_	SpaceAfter=No
+12	'	'	PUNCT	''	_	11	punct	_	_
+13	when	when	SCONJ	WRB	_	15	mark	_	_
+14	you	you	PRON	PRP	_	15	nsubj	_	_
+15	open	open	VERB	VBP	_	5	advcl	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	mouth	mouth	NOUN	NN	_	15	obj	_	_
+18	into	into	ADP	IN	_	17	nmod	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	EE	EE	NOUN	NN	_	23	compound	_	_
+21	/	/	SYM	SYM	_	23	dep	_	_
+22	AH	AH	NOUN	NN	_	23	compound	_	SpaceAfter=No
+23	vowel	vowel	NOUN	NN	_	15	dep	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-62
+# text = You may need to record yourself while doing this.
+# s_type=sub
+# speaker=singerchoco
+1	You	you	PRON	PRP	_	3	nsubj	_	_
+2	may	may	AUX	MD	_	3	aux	_	_
+3	need	need	VERB	VB	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	record	record	VERB	VB	_	3	xcomp	_	_
+6	yourself	yourself	PRON	PRP	_	5	obj	_	_
+7	while	while	SCONJ	IN	_	8	mark	_	_
+8	doing	do	VERB	VBG	_	5	advcl	_	_
+9	this	this	PRON	DT	_	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-63
+# text = Many a times i have notice that people can produce a relatively focused and clean hum / ng.
+# s_type=decl
+# speaker=singerchoco
+1	Many	many	ADJ	JJ	_	3	amod	_	_
+2	a	a	DET	DT	_	3	det	_	_
+3	times	time	NOUN	NNS	_	18	nsubj	_	_
+4	i	I	PRON	PRP	_	6	nsubj	_	Typo=Yes
+5	have	have	AUX	VBP	_	6	aux	_	_
+6	notice	notice	VERB	VBN	_	3	acl:relcl	_	Typo=Yes
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	people	people	NOUN	NNS	_	10	nsubj	_	_
+9	can	can	AUX	MD	_	10	aux	_	_
+10	produce	produce	VERB	VB	_	6	ccomp	_	_
+11	a	a	DET	DT	_	16	det	_	_
+12	relatively	relatively	ADV	RB	_	13	advmod	_	_
+13	focused	focus	VERB	VBN	_	16	amod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	clean	clean	ADJ	JJ	_	13	conj	_	_
+16	hum	hum	NOUN	NN	_	18	compound	_	_
+17	/	/	SYM	SYM	_	18	dep	_	_
+18	ng	ng	NOUN	NN	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = GUM_reddit_ring-64
+# text = But when they open the mouth to produce a vowel, the tone quality drastically changes into something way less focused and clear.
+# s_type=decl
+# speaker=singerchoco
+1	But	but	CCONJ	CC	_	16	cc	_	_
+2	when	when	SCONJ	WRB	_	4	mark	_	_
+3	they	they	PRON	PRP	_	4	nsubj	_	_
+4	open	open	VERB	VBP	_	16	advcl	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	mouth	mouth	NOUN	NN	_	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	produce	produce	VERB	VB	_	4	xcomp	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	vowel	vowel	NOUN	NN	_	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	tone	tone	NOUN	NN	_	14	compound	_	_
+14	quality	quality	NOUN	NN	_	16	nsubj	_	_
+15	drastically	drastically	ADV	RB	_	16	advmod	_	_
+16	changes	change	VERB	VBZ	_	0	root	_	_
+17	into	into	ADP	IN	_	18	case	_	_
+18	something	something	NOUN	NN	_	16	obl	_	_
+19	way	way	ADV	RB	_	20	advmod	_	_
+20	less	less	ADV	RBR	_	21	advmod	_	_
+21	focused	focused	VERB	VBN	_	18	amod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	clear	clear	ADJ	JJ	_	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = GUM_reddit_ring-65
+# text = So when you record yourself, see if you can produce the cleanest most 'forward' sound on the hum / ngand see that if you open to the vowel, does the tone quality drastically change.
+# s_type=imp
+# speaker=singerchoco
+1	So	so	ADV	RB	_	7	advmod	_	_
+2	when	when	SCONJ	WRB	_	4	mark	_	_
+3	you	you	PRON	PRP	_	4	nsubj	_	_
+4	record	record	VERB	VBP	_	7	advcl	_	_
+5	yourself	yourself	PRON	PRP	_	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	see	see	VERB	VB	_	0	root	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	you	you	PRON	PRP	_	11	nsubj	_	_
+10	can	can	AUX	MD	_	11	aux	_	_
+11	produce	produce	VERB	VB	_	7	ccomp	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	cleanest	clean	ADJ	JJS	_	18	amod	_	_
+14	most	most	ADV	RBS	_	16	advmod	_	_
+15	'	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	forward	forward	ADJ	JJ	_	18	amod	_	SpaceAfter=No
+17	'	'	PUNCT	''	_	16	punct	_	_
+18	sound	sound	NOUN	NN	_	11	obj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	hum	hum	NOUN	NN	_	11	obl	_	_
+22	/	/	SYM	SYM	_	23	cc	_	_
+23	ng	ng	NOUN	NN	_	21	conj	_	SpaceAfter=No
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	see	see	VERB	VB	_	7	conj	_	_
+26	that	that	SCONJ	IN	_	39	mark	_	_
+27	if	if	SCONJ	IN	_	29	mark	_	_
+28	you	you	PRON	PRP	_	29	nsubj	_	_
+29	open	open	VERB	VBP	_	39	advcl	_	_
+30	to	to	ADP	TO	_	32	case	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	vowel	vowel	NOUN	NN	_	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	29	punct	_	_
+34	does	do	AUX	VBZ	_	39	aux	_	_
+35	the	the	DET	DT	_	37	det	_	_
+36	tone	tone	NOUN	NN	_	37	compound	_	_
+37	quality	quality	NOUN	NN	_	39	nsubj	_	_
+38	drastically	drastically	ADV	RB	_	39	advmod	_	_
+39	change	change	VERB	VB	_	25	ccomp	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_ring-66
+# text = The goal is to keep the tone quality relatively consistent.
+# s_type=decl
+# speaker=singerchoco
+1	The	the	DET	DT	_	2	det	_	_
+2	goal	goal	NOUN	NN	_	3	nsubj	_	_
+3	is	be	VERB	VBZ	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	keep	keep	VERB	VB	_	3	xcomp	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	tone	tone	NOUN	NN	_	8	compound	_	_
+8	quality	quality	NOUN	NN	_	5	obj	_	_
+9	relatively	relatively	ADV	RB	_	10	advmod	_	_
+10	consistent	consistent	ADJ	JJ	_	5	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_ring-67
+# text = Remember that you are trying to keep the same clarity and focus, different people sound different when the open the hum depending on the physiology of the vocal tract and cords.
+# s_type=other
+# speaker=singerchoco
+1	Remember	remember	VERB	VB	_	16	ccomp	_	_
+2	that	that	SCONJ	IN	_	5	mark	_	_
+3	you	you	PRON	PRP	_	5	nsubj	_	_
+4	are	be	AUX	VBP	_	5	aux	_	_
+5	trying	try	VERB	VBG	_	1	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	keep	keep	VERB	VB	_	5	xcomp	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	same	same	ADJ	JJ	_	10	amod	_	_
+10	clarity	clarity	NOUN	NN	_	7	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	focus	focus	NOUN	NN	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	_
+14	different	different	ADJ	JJ	_	15	amod	_	_
+15	people	people	NOUN	NNS	_	16	nsubj	_	_
+16	sound	sound	VERB	VBP	_	0	root	_	_
+17	different	different	ADJ	JJ	_	16	xcomp	_	_
+18	when	when	SCONJ	WRB	_	20	mark	_	_
+19	the	they	PRON	PRP	_	20	nsubj	_	Typo=Yes
+20	open	open	VERB	VB	_	16	advcl	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	hum	hum	NOUN	NN	_	20	obj	_	_
+23	depending	depend	SCONJ	VBG	_	26	mark	_	_
+24	on	on	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	physiology	physiology	NOUN	NN	_	20	advcl	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	_	30	det	_	_
+29	vocal	vocal	ADJ	JJ	_	30	amod	_	_
+30	tract	tract	NOUN	NN	_	26	nmod	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	cords	cord	NOUN	NNS	_	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = GUM_reddit_ring-68
+# text = So it is more important to focus on the forward clarity so as to not make the sound overly nasal or squeezed.
+# s_type=decl
+# speaker=singerchoco
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	it	it	PRON	PRP	_	5	nsubj	_	_
+3	is	be	AUX	VBZ	_	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	important	important	ADJ	JJ	_	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	focus	focus	VERB	VB	_	5	xcomp	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	forward	forward	ADJ	JJ	_	11	amod	_	_
+11	clarity	clarity	NOUN	NN	_	7	obl	_	_
+12	so	so	ADV	RB	_	16	advmod	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	not	not	PART	RB	Polarity=Neg	16	advmod	_	_
+16	make	make	VERB	VB	_	7	advcl	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	sound	sound	NOUN	NN	_	16	obj	_	_
+19	overly	overly	ADV	RB	_	20	advmod	_	_
+20	nasal	nasal	ADJ	JJ	_	16	xcomp	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	squeezed	squeeze	VERB	VBN	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_ring-69
+# text = Hope this helped!
+# s_type=other
+# speaker=singerchoco
+1	Hope	hope	VERB	VBP	_	0	root	_	_
+2	this	this	PRON	DT	_	3	nsubj	_	_
+3	helped	help	VERB	VBD	_	1	ccomp	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+

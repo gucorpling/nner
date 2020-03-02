@@ -1,0 +1,16 @@
+GUM_academic_exposure
+GUM_academic_librarians
+GUM_bio_byron
+GUM_bio_emperor
+GUM_fiction_beast
+GUM_fiction_lunre
+GUM_interview_cyclone
+GUM_interview_gaming
+GUM_news_defector
+GUM_news_homeopathic
+GUM_voyage_athens
+GUM_voyage_coron
+GUM_whow_joke
+GUM_whow_overalls
+GUM_reddit_bobby
+GUM_reddit_card

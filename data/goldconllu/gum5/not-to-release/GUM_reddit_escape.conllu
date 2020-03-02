@@ -1,0 +1,1175 @@
+# newdoc id = GUM_reddit_escape
+# sent_id = GUM_reddit_escape-1
+# text = Escape The Room Employees, what is the weirdest thing you've seen someone do in one of the rooms?
+# s_type=wh
+# speaker=Pops_Daddy
+1	Escape	escape	VERB	VB	_	4	compound	_	_
+2	The	the	DET	DT	_	3	det	_	_
+3	Room	room	NOUN	NN	_	1	obj	_	_
+4	Employees	employee	NOUN	NNS	_	10	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	what	what	PRON	WP	_	10	nsubj	_	_
+7	is	be	AUX	VBZ	_	10	cop	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	weirdest	weird	ADJ	JJS	_	10	amod	_	_
+10	thing	thing	NOUN	NN	_	0	root	_	_
+11	you	you	PRON	PRP	_	13	nsubj	_	SpaceAfter=No
+12	've	have	AUX	VBP	_	13	aux	_	_
+13	seen	see	VERB	VBN	_	10	acl:relcl	_	_
+14	someone	someone	NOUN	NN	_	15	nsubj	_	_
+15	do	do	VERB	VB	_	13	ccomp	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	one	one	NUM	CD	_	15	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	rooms	room	NOUN	NNS	_	17	nmod	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	10	punct	_	_
+
+# sent_id = GUM_reddit_escape-2
+# text = The most depressing shit I saw was a tired looking couple who brought in their bespectacled, NASA shirt wearing, 8 year old geek of a son in to have some fun.
+# s_type=decl
+# speaker=Saucy_Wrench
+1	The	the	DET	DT	_	4	det	_	_
+2	most	most	ADV	RBS	_	3	advmod	_	_
+3	depressing	depressing	ADJ	JJ	_	4	amod	_	_
+4	shit	shit	NOUN	NN	_	11	nsubj	_	_
+5	I	I	PRON	PRP	_	6	nsubj	_	_
+6	saw	see	VERB	VBD	_	4	acl:relcl	_	_
+7	was	be	AUX	VBD	_	11	cop	_	_
+8	a	a	DET	DT	_	11	det	_	_
+9	tired	tired	ADJ	JJ	_	10	amod	_	_
+10	looking	look	VERB	VBG	_	11	acl	_	_
+11	couple	couple	NOUN	NN	_	0	root	_	_
+12	who	who	PRON	WP	_	13	nsubj	_	_
+13	brought	bring	VERB	VBD	_	11	acl:relcl	_	_
+14	in	in	ADP	IN	_	25	case	_	_
+15	their	their	PRON	PRP$	_	25	nmod:poss	_	_
+16	bespectacled	bespectacled	ADJ	JJ	_	25	amod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	NASA	NASA	PROPN	NNP	_	19	compound	_	_
+19	shirt	shirt	NOUN	NN	_	20	obj	_	_
+20	wearing	wear	VERB	VBG	_	25	acl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	8	8	NUM	CD	_	23	nummod	_	_
+23	year	year	NOUN	NN	_	24	obl:npmod	_	_
+24	old	old	ADJ	JJ	_	25	amod	_	_
+25	geek	geek	NOUN	NN	_	13	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	_	28	det	_	_
+28	son	son	NOUN	NN	_	25	nmod	_	_
+29	in	in	ADP	IN	_	13	obl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	have	have	VERB	VB	_	13	xcomp	_	_
+32	some	some	DET	DT	_	33	det	_	_
+33	fun	fun	NOUN	NN	_	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = GUM_reddit_escape-3
+# text = The parents couldn't have been more discouraging to him.
+# s_type=sub
+# speaker=Saucy_Wrench
+1	The	the	DET	DT	_	2	det	_	_
+2	parents	parent	NOUN	NNS	_	8	nsubj	_	_
+3	could	could	AUX	MD	_	8	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	Polarity=Neg	8	advmod	_	_
+5	have	have	AUX	VB	_	8	aux	_	_
+6	been	be	AUX	VBN	_	8	cop	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	discouraging	discouraging	ADJ	JJ	_	0	root	_	_
+9	to	to	ADP	TO	_	10	case	_	_
+10	him	he	PRON	PRP	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_escape-4
+# text = He was excitedly bouncing around the room pointing out things that he thought were clues clues while the parents dismissed every idea he had and told him to stop getting so excited.
+# s_type=decl
+# speaker=Saucy_Wrench
+1	He	he	PRON	PRP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	cop	_	_
+3	excitedly	excitedly	ADV	RB	_	4	advmod	_	_
+4	bouncing	bounce	VERB	VBG	_	0	root	_	_
+5	around	around	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	room	room	NOUN	NN	_	4	obl	_	_
+8	pointing	point	VERB	VBG	_	4	advcl	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	things	thing	NOUN	NNS	_	8	obj	_	_
+11	that	that	ADP	IN	_	13	obj	_	_
+12	he	he	PRON	PRP	_	13	nsubj	_	_
+13	thought	think	VERB	VBD	_	10	acl:relcl	_	_
+14	were	be	AUX	VBD	_	16	cop	_	_
+15	clues	clue	NOUN	NNS	_	16	dep	_	_
+16	clues	clue	NOUN	NNS	_	13	ccomp	_	Typo=Yes
+17	while	while	SCONJ	IN	_	20	mark	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	parents	parent	NOUN	NNS	_	20	nsubj	_	_
+20	dismissed	dismiss	VERB	VBD	_	4	advcl	_	_
+21	every	every	DET	DT	_	22	det	_	_
+22	idea	idea	NOUN	NN	_	20	obj	_	_
+23	he	he	PRON	PRP	_	24	nsubj	_	_
+24	had	have	VERB	VBD	_	22	acl:relcl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	told	tell	VERB	VBD	_	24	conj	_	_
+27	him	he	PRON	PRP	_	26	iobj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	stop	stop	VERB	VB	_	26	xcomp	_	_
+30	getting	get	VERB	VBG	_	29	xcomp	_	_
+31	so	so	ADV	RB	_	32	advmod	_	_
+32	excited	excited	ADJ	JJ	_	30	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-5
+# text = The parents took charge and proceeded to ignore the obvious clues he was pointing out and spent most of the time pursuing dead ends.
+# s_type=decl
+# speaker=Saucy_Wrench
+1	The	the	DET	DT	_	2	det	_	_
+2	parents	parent	NOUN	NNS	_	3	nsubj	_	_
+3	took	take	VERB	VBD	_	0	root	_	_
+4	charge	charge	NOUN	NN	_	3	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	proceeded	proceed	VERB	VBD	_	3	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	ignore	ignore	VERB	VB	_	6	xcomp	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	obvious	obvious	ADJ	JJ	_	11	amod	_	_
+11	clues	clue	NOUN	NNS	_	8	obj	_	_
+12	he	he	PRON	PRP	_	14	nsubj	_	_
+13	was	be	AUX	VBD	_	14	aux	_	_
+14	pointing	point	VERB	VBG	_	11	acl:relcl	_	_
+15	out	out	ADP	RP	_	14	compound:prt	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	spent	spend	VERB	VBD	_	3	conj	_	_
+18	most	most	ADJ	JJS	_	17	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	time	time	NOUN	NN	_	18	obl	_	_
+22	pursuing	pursue	VERB	VBG	_	17	xcomp	_	_
+23	dead	dead	ADJ	JJ	_	24	amod	_	_
+24	ends	end	NOUN	NNS	_	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-6
+# text = Sad part is his instincts were more often than not correct but his parents just didn't listen and refused to let him explore and try stuff out.
+# s_type=decl
+# speaker=Saucy_Wrench
+1	Sad	sad	ADJ	JJ	_	2	amod	_	_
+2	part	part	NOUN	NN	_	11	nsubj	_	_
+3	is	be	AUX	VBZ	_	11	cop	_	_
+4	his	his	PRON	PRP$	_	5	nmod:poss	_	_
+5	instincts	instinct	NOUN	NNS	_	11	nsubj	_	_
+6	were	be	AUX	VBD	_	11	cop	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	often	often	ADV	RB	_	11	advmod	_	_
+9	than	than	SCONJ	IN	_	10	mark	_	_
+10	not	not	PART	RB	_	8	advcl	_	_
+11	correct	correct	ADJ	JJ	_	0	root	_	_
+12	but	but	CCONJ	CC	_	18	cc	_	_
+13	his	his	PRON	PRP$	_	14	nmod:poss	_	_
+14	parents	parent	NOUN	NNS	_	18	nsubj	_	_
+15	just	just	ADV	RB	_	18	advmod	_	_
+16	did	do	AUX	VBD	_	18	aux	_	SpaceAfter=No
+17	n't	not	PART	RB	Polarity=Neg	18	advmod	_	_
+18	listen	listen	VERB	VB	_	11	conj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	refused	refuse	VERB	VBD	_	18	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	let	let	VERB	VB	_	20	xcomp	_	_
+23	him	he	PRON	PRP	_	22	obj	_	_
+24	explore	explore	VERB	VB	_	22	xcomp	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	try	try	VERB	VB	_	24	conj	_	_
+27	stuff	stuff	NOUN	NN	_	26	obj	_	_
+28	out	out	ADP	RP	_	26	compound:prt	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = GUM_reddit_escape-7
+# text = Hopefully his curiosity and enthusiasm survives them.
+# s_type=decl
+# speaker=Saucy_Wrench
+1	Hopefully	hopefully	ADV	RB	_	6	advmod	_	_
+2	his	his	PRON	PRP$	_	3	nmod:poss	_	_
+3	curiosity	curiosity	NOUN	NN	_	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	enthusiasm	enthusiasm	NOUN	NN	_	3	conj	_	_
+6	survives	survive	VERB	VBZ	_	0	root	_	_
+7	them	they	PRON	PRP	_	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_escape-8
+# text = I feel like if it were in my power in any way, that kid would have led his parents right through the damned thing.
+# s_type=decl
+# speaker=Hiya6969
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	feel	feel	VERB	VBP	_	0	root	_	_
+3	like	like	SCONJ	IN	_	18	mark	_	_
+4	if	if	SCONJ	IN	_	12	mark	_	_
+5	it	it	PRON	PRP	_	12	nsubj	_	_
+6	were	be	AUX	VBD	_	12	cop	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	_	9	nmod:poss	_	_
+9	power	power	NOUN	NN	_	18	advcl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	way	way	NOUN	NN	_	18	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	that	that	DET	DT	_	15	det	_	_
+15	kid	kid	NOUN	NN	_	18	nsubj	_	_
+16	would	would	AUX	MD	_	18	aux	_	_
+17	have	have	AUX	VB	_	18	aux	_	_
+18	led	lead	VERB	VBN	_	2	advcl	_	_
+19	his	his	PRON	PRP$	_	20	nmod:poss	_	_
+20	parents	parent	NOUN	NNS	_	18	obj	_	_
+21	right	right	ADV	RB	_	18	advmod	_	_
+22	through	through	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	_	25	det	_	_
+24	damned	damned	ADJ	JJ	_	25	amod	_	_
+25	thing	thing	NOUN	NN	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-9
+# text = If I were the 'operator' of that site, at the end I would have walked the family through every damn clue the kid noticed and made sure the parents knew the kid was right.
+# s_type=sub
+# speaker=SmartassComment
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	I	I	PRON	PRP	_	6	nsubj	_	_
+3	were	be	AUX	VBD	_	6	cop	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	'	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	operator	operator	NOUN	NN	_	18	advcl	_	SpaceAfter=No
+7	'	'	PUNCT	''	_	6	punct	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	that	that	DET	DT	_	10	det	_	_
+10	site	site	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	end	end	NOUN	NN	_	18	obl	_	_
+15	I	I	PRON	PRP	_	18	nsubj	_	_
+16	would	would	AUX	MD	_	18	aux	_	_
+17	have	have	AUX	VB	_	18	aux	_	_
+18	walked	walk	VERB	VBD	_	0	root	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	family	family	NOUN	NN	_	18	obj	_	_
+21	through	through	ADP	IN	_	24	case	_	_
+22	every	every	DET	DT	_	24	det	_	_
+23	damn	damn	ADJ	JJ	_	24	amod	_	_
+24	clue	clue	NOUN	NN	_	18	obl	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	kid	kid	NOUN	NN	_	27	nsubj	_	_
+27	noticed	notice	VERB	VBD	_	24	acl:relcl	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	made	make	VERB	VBD	_	18	conj	_	_
+30	sure	sure	ADV	RB	_	29	xcomp	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	parents	parent	NOUN	NNS	_	33	nsubj	_	_
+33	knew	know	VERB	VBD	_	29	ccomp	_	_
+34	the	the	DET	DT	_	35	det	_	_
+35	kid	kid	NOUN	NN	_	37	nsubj	_	_
+36	was	be	AUX	VBD	_	37	cop	_	_
+37	right	right	ADJ	JJ	_	33	ccomp	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = GUM_reddit_escape-10
+# text = They probably won't and he will develop chronic depression.
+# s_type=decl
+# speaker=PrsnPersuasion
+1	They	they	PRON	PRP	_	3	nsubj	_	_
+2	probably	probably	ADV	RB	_	3	advmod	_	_
+3	wo	will	AUX	MD	_	0	root	_	SpaceAfter=No
+4	n't	not	PART	RB	Polarity=Neg	3	advmod	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	he	he	PRON	PRP	_	8	nsubj	_	_
+7	will	will	AUX	MD	_	8	aux	_	_
+8	develop	develop	VERB	VB	_	3	conj	_	_
+9	chronic	chronic	ADJ	JJ	_	10	amod	_	_
+10	depression	depression	NOUN	NN	_	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-11
+# text = Me irl
+# s_type=frag
+# speaker=DELETED
+1	Me	I	PRON	PRP	_	0	root	_	_
+2	irl	IRL	ADV	RB	_	1	advmod	_	SpaceAfter=No
+
+# sent_id = GUM_reddit_escape-12
+# text = That would seem to suggest parents aren't all knowing geniuses.
+# s_type=sub
+# speaker=Supicioso
+1	That	that	PRON	DT	_	3	nsubj	_	_
+2	would	would	AUX	MD	_	3	aux	_	_
+3	seem	seem	VERB	VB	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	suggest	suggest	VERB	VB	_	3	xcomp	_	_
+6	parents	parent	NOUN	NNS	_	11	nsubj	_	_
+7	are	be	AUX	VBP	_	11	aux	_	SpaceAfter=No
+8	n't	not	PART	RB	Polarity=Neg	11	advmod	_	_
+9	all	all	PRON	DT	_	10	obl:npmod	_	_
+10	knowing	know	VERB	VBG	_	11	amod	_	_
+11	geniuses	genius	NOUN	NNS	_	5	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-13
+# text = Say it a nit so!!
+# s_type=imp
+# speaker=Supicioso
+1	Say	say	VERB	VB	_	0	root	_	_
+2	it	it	PRON	PRP	_	5	nsubj	_	_
+3	a	be	AUX	VBZ	_	5	cop	_	Typo=Yes
+4	nit	not	PART	RB	Polarity=Neg	5	advmod	_	Typo=Yes
+5	so	so	ADV	RB	_	1	ccomp	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_escape-14
+# text = I will not go
+# s_type=decl
+# speaker=7832507840
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	will	will	AUX	MD	_	4	aux	_	_
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	_
+4	go	go	VERB	VB	_	0	root	_	_
+
+# sent_id = GUM_reddit_escape-15
+# text = Turn the lights off
+# s_type=imp
+# speaker=HotDrunkMoms
+1	Turn	Turn	VERB	VB	_	0	root	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	lights	light	NOUN	NNS	_	1	obj	_	_
+4	off	off	ADP	RP	_	1	compound:prt	_	_
+
+# sent_id = GUM_reddit_escape-16
+# text = Carry me home
+# s_type=imp
+# speaker=7832507840
+1	Carry	Carry	VERB	VB	_	0	root	_	_
+2	me	I	PRON	PRP	_	1	obj	_	_
+3	home	home	ADV	RB	_	1	advmod	_	_
+
+# sent_id = GUM_reddit_escape-17
+# text = NANANANANANANANANANANANANANANANANANA
+# s_type=other
+# speaker=OlafImpaleMe
+1	NANANANANANANANANANANANANANANANANANA	NANANANANANANANANANANANANANANANANANA	INTJ	UH	_	0	root	_	_
+
+# sent_id = GUM_reddit_escape-18
+# text = It amazes me the chunks of time it takes for people to respond to these things D:>
+# s_type=decl
+# speaker=7832507840
+1	It	it	PRON	PRP	_	2	nsubj	_	_
+2	amazes	amaze	VERB	VBZ	_	0	root	_	_
+3	me	I	PRON	PRP	_	2	obj	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	chunks	chunk	NOUN	NNS	_	2	obl:npmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	time	time	NOUN	NN	_	5	nmod	_	_
+8	it	it	PRON	PRP	_	9	nsubj	_	_
+9	takes	take	VERB	VBZ	_	7	acl:relcl	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	people	people	SCONJ	NNS	_	13	mark	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	respond	respond	VERB	VB	_	9	xcomp	_	_
+14	to	to	ADP	TO	_	16	case	_	_
+15	these	these	DET	DT	_	16	det	_	_
+16	things	thing	NOUN	NNS	_	13	obl	_	_
+17	D:>	D:>	SYM	SYM	_	2	discourse	_	SpaceAfter=No
+
+# sent_id = GUM_reddit_escape-19
+# text = 1 year later
+# s_type=frag
+# speaker=OlafImpaleMe
+1	1	1	NUM	CD	_	2	nummod	_	_
+2	year	year	NOUN	NN	_	0	root	_	_
+3	later	late	ADV	RBR	_	2	advmod	_	_
+
+# sent_id = GUM_reddit_escape-20
+# text = Late night, come home
+# s_type=other
+# speaker=OlafImpaleMe
+1	Late	Late	ADJ	JJ	_	2	amod	_	_
+2	night	night	NOUN	NN	_	4	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	come	come	VERB	VB	_	0	root	_	_
+5	home	home	NOUN	NN	_	4	obj	_	_
+
+# sent_id = GUM_reddit_escape-21
+# text = Work sucks, I know
+# s_type=decl
+# speaker=7832507840
+1	Work	Work	NOUN	NN	_	2	nsubj	_	_
+2	sucks	suck	VERB	VBZ	_	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	I	I	PRON	PRP	_	5	nsubj	_	_
+5	know	know	VERB	VBP	_	0	root	_	_
+
+# sent_id = GUM_reddit_escape-22
+# text = She left me roses by the stairs.
+# s_type=decl
+# speaker=DELETED2
+1	She	She	PRON	PRP	_	2	nsubj	_	_
+2	left	leave	VERB	VBD	_	0	root	_	_
+3	me	I	PRON	PRP	_	2	iobj	_	_
+4	roses	rose	NOUN	NNS	_	2	obj	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	stairs	stair	NOUN	NNS	_	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-23
+# text = Not to over step my boundaries but ... what cunts.
+# s_type=other
+# speaker=Tango_Flett
+1	Not	Not	ADV	RB	Polarity=Neg	4	advmod	_	_
+2	to	to	PART	TO	_	4	mark	_	_
+3	over	over	ADV	RB	_	4	advmod	_	Typo=Yes
+4	step	step	VERB	VB	_	0	root	_	Typo=Yes
+5	my	my	PRON	PRP$	_	6	nmod:poss	_	_
+6	boundaries	boundary	NOUN	NNS	_	4	obj	_	_
+7	but	but	CCONJ	CC	_	10	cc	_	_
+8	...	...	PUNCT	:	_	7	punct	_	_
+9	what	what	DET	WP	_	10	det	_	_
+10	cunts	cunt	NOUN	NNS	_	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-24
+# text = That poor child deserves to be encouraged and listened to. :(
+# s_type=decl
+# speaker=Tango_Flett
+1	That	That	DET	DT	_	3	det	_	_
+2	poor	poor	ADJ	JJ	_	3	amod	_	_
+3	child	child	NOUN	NN	_	4	nsubj	_	_
+4	deserves	deserve	VERB	VBZ	_	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	_	7	aux:pass	_	_
+7	encouraged	encourage	VERB	VBN	_	4	xcomp	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	listened	listen	VERB	VBN	_	7	conj	_	_
+10	to	to	PART	TO	_	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+12	:(	:(	SYM	SYM	_	4	dep	_	SpaceAfter=No
+
+# sent_id = GUM_reddit_escape-25
+# text = This is the flaw with the premise of the movie Idiocracy.
+# s_type=decl
+# speaker=Forbizzle
+1	This	This	PRON	DT	_	4	nsubj	_	_
+2	is	be	AUX	VBZ	_	4	cop	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	flaw	flaw	NOUN	NN	_	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	premise	premise	NOUN	NN	_	4	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	movie	movie	NOUN	NN	_	7	nmod	_	_
+11	Idiocracy	Idiocracy	PROPN	NNP	_	10	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-26
+# text = My parents always did that when I was a kid whenever there was a problem that needing thinking through they never let me help or dismissed every idea I had simply because I was understandably a kid but you still have to at least let your kids try and help or take their suggestions seriously
+# s_type=multiple
+# speaker=championplaya64
+1	My	My	PRON	PRP$	_	2	nmod:poss	_	_
+2	parents	parent	NOUN	NNS	_	4	nsubj	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	did	do	VERB	VBD	_	0	root	_	_
+5	that	that	PRON	DT	_	4	obj	_	_
+6	when	when	SCONJ	WRB	_	10	mark	_	_
+7	I	I	PRON	PRP	_	10	nsubj	_	_
+8	was	be	AUX	VBD	_	10	cop	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	kid	kid	NOUN	NN	_	4	advcl	_	_
+11	whenever	whenever	SCONJ	WRB	_	13	mark	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	was	be	VERB	VBD	_	22	advcl	_	_
+14	a	a	DET	DT	_	15	det	_	_
+15	problem	problem	NOUN	NN	_	13	nsubj	_	_
+16	that	that	SCONJ	IN	_	17	mark	_	_
+17	needing	need	VERB	VBG	_	15	acl:relcl	_	Typo=Yes
+18	thinking	thinking	VERB	VBG	_	17	xcomp	_	_
+19	through	through	ADP	RP	_	18	compound:prt	_	_
+20	they	they	PRON	PRP	_	22	nsubj	_	_
+21	never	never	ADV	RB	Polarity=Neg	22	advmod	_	_
+22	let	let	VERB	VBD	_	4	parataxis	_	_
+23	me	I	PRON	PRP	_	24	nsubj	_	_
+24	help	help	VERB	VB	_	22	ccomp	_	_
+25	or	or	CCONJ	CC	_	26	cc	_	_
+26	dismissed	dismiss	VERB	VBD	_	22	conj	_	_
+27	every	every	DET	DT	_	28	det	_	_
+28	idea	idea	NOUN	NN	_	26	obj	_	_
+29	I	I	PRON	PRP	_	30	nsubj	_	_
+30	had	have	VERB	VBD	_	28	acl:relcl	_	_
+31	simply	simply	ADV	RB	_	37	advmod	_	_
+32	because	because	SCONJ	IN	_	37	mark	_	_
+33	I	I	PRON	PRP	_	37	nsubj	_	_
+34	was	be	AUX	VBD	_	37	cop	_	_
+35	understandably	understandably	ADV	RB	_	37	advmod	_	_
+36	a	a	DET	DT	_	37	det	_	_
+37	kid	kid	NOUN	NN	_	26	advcl	_	_
+38	but	but	CCONJ	CC	_	41	cc	_	_
+39	you	you	PRON	PRP	_	41	nsubj	_	_
+40	still	still	ADV	RB	_	41	advmod	_	_
+41	have	have	VERB	VB	_	22	conj	_	_
+42	to	to	PART	TO	_	45	mark	_	_
+43	at	at	ADV	IN	_	45	advmod	_	_
+44	least	least	ADJ	JJS	_	43	fixed	_	_
+45	let	let	VERB	VB	_	41	xcomp	_	_
+46	your	your	PRON	PRP$	_	47	nmod:poss	_	_
+47	kids	kid	NOUN	NNS	_	45	obj	_	_
+48	try	try	VERB	VB	_	45	xcomp	_	_
+49	and	and	CCONJ	CC	_	50	cc	_	_
+50	help	help	VERB	VB	_	48	conj	_	_
+51	or	or	CCONJ	CC	_	52	cc	_	_
+52	take	take	VERB	VB	_	45	conj	_	_
+53	their	their	PRON	PRP$	_	54	nmod:poss	_	_
+54	suggestions	suggestion	NOUN	NNS	_	52	obj	_	_
+55	seriously	seriously	ADV	RB	_	52	advmod	_	_
+
+# sent_id = GUM_reddit_escape-27
+# text = Thatsinfuriating because the whole point is to be adventurous and curious
+# s_type=decl
+# speaker=howivewaited
+1	That	That	PRON	DT	_	3	nsubj	_	SpaceAfter=No|Typo=Yes
+2	s	be	AUX	VBZ	_	3	aux	_	SpaceAfter=No|Typo=Yes
+3	infuriating	infuriate	VERB	VBG	_	0	root	_	_
+4	because	because	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	whole	whole	ADJ	JJ	_	7	amod	_	_
+7	point	point	NOUN	NN	_	8	nsubj	_	_
+8	is	be	VERB	VBZ	_	3	advcl	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	_	11	cop	_	_
+11	adventurous	adventurous	ADJ	JJ	_	8	xcomp	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	curious	curious	ADJ	JJ	_	11	conj	_	_
+
+# sent_id = GUM_reddit_escape-28
+# text = OH WAIT I THOUGHT OF ANOTHER ONE
+# s_type=multiple
+# speaker=simonjester523
+1	OH	oh	INTJ	UH	_	4	discourse	_	_
+2	WAIT	wait	VERB	VB	_	4	discourse	_	_
+3	I	I	PRON	PRP	_	4	nsubj	_	_
+4	THOUGHT	thought	VERB	VBD	_	0	root	_	_
+5	OF	of	ADP	IN	_	7	case	_	_
+6	ANOTHER	another	DET	DT	_	7	det	_	_
+7	ONE	one	NUM	CD	_	4	obl	_	_
+
+# sent_id = GUM_reddit_escape-29
+# text = So we do proposals.
+# s_type=decl
+# speaker=simonjester523
+1	So	So	ADV	IN	_	3	advmod	_	_
+2	we	we	PRON	PRP	_	3	nsubj	_	_
+3	do	do	VERB	VBP	_	0	root	_	_
+4	proposals	proposal	NOUN	NNS	_	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-30
+# text = Ring in the final puzzle box, proposal signs, whole package deal, people love it.
+# s_type=decl
+# speaker=simonjester523
+1	Ring	Ring	VERB	VB	_	0	root	_	_
+2	in	in	ADP	RP	_	6	case	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	final	final	ADJ	JJ	_	6	amod	_	_
+5	puzzle	puzzle	NOUN	NN	_	6	compound	_	_
+6	box	box	NOUN	NN	_	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	proposal	proposal	NOUN	NN	_	9	compound	_	_
+9	signs	sign	NOUN	NNS	_	1	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	whole	whole	ADJ	JJ	_	13	amod	_	_
+12	package	package	NOUN	NN	_	13	compound	_	_
+13	deal	deal	NOUN	NN	_	9	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	people	people	NOUN	NNS	_	16	nsubj	_	_
+16	love	love	VERB	VBP	_	13	parataxis	_	_
+17	it	it	PRON	PRP	_	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_escape-31
+# text = Dude calls up to set up a proposal, I ask what room he wants etcetera.
+# s_type=decl
+# speaker=simonjester523
+1	Dude	Dude	NOUN	NN	_	2	nsubj	_	_
+2	calls	call	VERB	VBZ	_	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	set	set	VERB	VB	_	2	advcl	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	proposal	proposal	NOUN	NN	_	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	_	11	nsubj	_	_
+11	ask	ask	VERB	VBP	_	2	parataxis	_	_
+12	what	what	DET	WP	_	13	det	_	_
+13	room	room	NOUN	NN	_	15	obj	_	_
+14	he	he	PRON	PRP	_	15	nsubj	_	_
+15	wants	want	VERB	VBZ	_	11	ccomp	_	_
+16	etcetera	etcetera	X	FW	_	15	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-32
+# text = So then I tell him the total price to book out the entire room for the proposal.
+# s_type=decl
+# speaker=simonjester523
+1	So	So	ADV	RB	_	4	advmod	_	_
+2	then	then	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	_	4	nsubj	_	_
+4	tell	tell	VERB	VBP	_	0	root	_	_
+5	him	he	PRON	PRP	_	4	iobj	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	total	total	ADJ	JJ	_	8	amod	_	_
+8	price	price	NOUN	NN	_	4	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	book	book	VERB	VB	_	8	acl	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	entire	entire	ADJ	JJ	_	14	amod	_	_
+14	room	room	NOUN	NN	_	10	obj	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	proposal	proposal	NOUN	NN	_	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-33
+# text = He says he just wants to buy the two tickets for him and his girlfriend, I tell him we can't have strangers playing a game that their experience is impacted / alteredby the fact that there's a proposal going on.
+# s_type=decl
+# speaker=simonjester523
+1	He	He	PRON	PRP	_	2	nsubj	_	_
+2	says	say	VERB	VBZ	_	0	root	_	_
+3	he	he	PRON	PRP	_	5	nsubj	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	wants	want	VERB	VBZ	_	2	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	buy	buy	VERB	VB	_	5	xcomp	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	two	two	NUM	CD	_	10	nummod	_	_
+10	tickets	ticket	NOUN	NNS	_	7	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	_	10	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	his	his	PRON	PRP$	_	15	nmod:poss	_	_
+15	girlfriend	girlfriend	NOUN	NN	_	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	I	I	PRON	PRP	_	18	nsubj	_	_
+18	tell	tell	VERB	VBP	_	2	parataxis	_	_
+19	him	he	PRON	PRP	_	18	iobj	_	_
+20	we	we	PRON	PRP	_	23	nsubj	_	_
+21	ca	ca	AUX	MD	_	23	aux	_	SpaceAfter=No
+22	n't	not	PART	RB	Polarity=Neg	23	advmod	_	_
+23	have	have	VERB	VB	_	18	ccomp	_	_
+24	strangers	stranger	NOUN	NNS	_	23	obj	_	_
+25	playing	play	VERB	VBG	_	23	xcomp	_	_
+26	a	a	DET	DT	_	27	det	_	_
+27	game	game	NOUN	NN	_	25	obj	_	_
+28	that	that	SCONJ	WDT	_	32	mark	_	_
+29	their	their	PRON	PRP$	_	30	nmod:poss	_	_
+30	experience	experience	NOUN	NN	_	32	nsubj:pass	_	_
+31	is	be	AUX	VBZ	_	32	aux:pass	_	_
+32	impacted	impact	VERB	VBN	_	27	acl:relcl	_	_
+33	/	/	SYM	SYM	_	34	cc	_	_
+34	altered	alter	VERB	VBN	_	32	conj	_	SpaceAfter=No
+35	by	by	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	_	37	det	_	_
+37	fact	fact	NOUN	NN	_	32	obl	_	_
+38	that	that	SCONJ	IN	_	40	mark	_	_
+39	there	there	PRON	EX	_	40	expl	_	SpaceAfter=No
+40	's	be	VERB	VBZ	_	37	ccomp	_	_
+41	a	a	DET	DT	_	42	det	_	_
+42	proposal	proposal	NOUN	NN	_	40	nsubj	_	_
+43	going	go	VERB	VBG	_	42	acl	_	_
+44	on	on	ADP	RP	_	43	compound:prt	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-34
+# text = Proposal happens in an Escape Room, there's no longer a game, it becomes about the proposal.
+# s_type=decl
+# speaker=simonjester523
+1	Proposal	proposal	NOUN	NN	_	2	nsubj	_	_
+2	happens	happen	VERB	VBZ	_	9	advcl	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	an	a	DET	DT	_	6	det	_	_
+5	Escape	escape	NOUN	NN	_	6	compound	_	_
+6	Room	room	NOUN	NN	_	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	there	there	PRON	EX	_	9	expl	_	SpaceAfter=No
+9	's	be	VERB	VBZ	_	0	root	_	_
+10	no	no	ADV	RB	Polarity=Neg	11	advmod	_	_
+11	longer	long	ADV	RBR	_	9	advmod	_	_
+12	a	a	DET	DT	_	13	det	_	_
+13	game	game	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	it	it	PRON	PRP	_	16	nsubj	_	_
+16	becomes	become	VERB	VBZ	_	9	parataxis	_	_
+17	about	about	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	proposal	proposal	NOUN	NN	_	16	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = GUM_reddit_escape-35
+# text = I know this because I've seen it happen a hundred times.
+# s_type=decl
+# speaker=simonjester523
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	know	know	VERB	VBP	_	0	root	_	_
+3	this	this	PRON	DT	_	2	obj	_	_
+4	because	because	SCONJ	IN	_	7	mark	_	_
+5	I	I	PRON	PRP	_	7	nsubj	_	SpaceAfter=No
+6	've	have	AUX	VBP	_	7	aux	_	_
+7	seen	see	VERB	VBN	_	2	advcl	_	_
+8	it	it	PRON	PRP	_	9	nsubj	_	_
+9	happen	happen	VERB	VB	_	7	ccomp	_	_
+10	a	a	PRON	DT	_	11	advmod	_	_
+11	hundred	hundred	NUM	CD	_	12	compound	_	_
+12	times	time	NOUN	NNS	_	7	obl:npmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-36
+# text = Anyway, dude refuses to buy out all of the tickets.
+# s_type=decl
+# speaker=simonjester523
+1	Anyway	Anyway	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	dude	dude	NOUN	NN	_	4	nsubj	_	_
+4	refuses	refuse	VERB	VBZ	_	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	buy	buy	VERB	VB	_	4	xcomp	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	all	all	PRON	DT	_	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	tickets	ticket	NOUN	NNS	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-37
+# text = Says he wants strangers to be there, he's not going to buy the other four tickets.
+# s_type=decl
+# speaker=simonjester523
+1	Says	say	VERB	VBZ	_	0	root	_	_
+2	he	he	PRON	PRP	_	3	nsubj	_	_
+3	wants	want	VERB	VBZ	_	1	ccomp	_	_
+4	strangers	stranger	NOUN	NNS	_	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	be	be	VERB	VB	_	3	xcomp	_	_
+7	there	there	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	he	he	PRON	PRP	_	12	nsubj	_	SpaceAfter=No
+10	's	be	AUX	VBZ	_	12	aux	_	_
+11	not	not	PART	RB	Polarity=Neg	12	advmod	_	_
+12	going	go	VERB	VBG	_	1	parataxis	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	buy	buy	VERB	VB	_	12	xcomp	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	other	other	ADJ	JJ	_	18	amod	_	_
+17	four	four	NUM	CD	_	18	nummod	_	_
+18	tickets	ticket	NOUN	NNS	_	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_escape-38
+# text = I hand the phone to my manager, they hash out details together.
+# s_type=decl
+# speaker=simonjester523
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	hand	hand	VERB	VBP	_	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	phone	phone	NOUN	NN	_	2	obj	_	_
+5	to	to	ADP	TO	_	7	case	_	_
+6	my	my	PRON	PRP$	_	7	nmod:poss	_	_
+7	manager	manager	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	they	they	PRON	PRP	_	10	nsubj	_	_
+10	hash	hash	VERB	VBP	_	2	parataxis	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	details	detail	NOUN	NNS	_	10	obj	_	_
+13	together	together	ADV	RB	_	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-39
+# text = Over the next three weeks leading up to the proposal, this guy calls every. Single. Fucking. Day.
+# s_type=decl
+# speaker=simonjester523
+1	Over	Over	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	next	next	ADJ	JJ	_	5	amod	_	_
+4	three	three	NUM	CD	_	5	nummod	_	_
+5	weeks	week	NOUN	NNS	_	14	obl	_	_
+6	leading	lead	VERB	VBG	_	5	acl	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	to	to	ADP	TO	_	10	case	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	proposal	proposal	NOUN	NN	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	this	this	DET	DT	_	13	det	_	_
+13	guy	guy	NOUN	NN	_	14	nsubj	_	_
+14	calls	call	VERB	VBZ	_	0	root	_	_
+15	every	every	DET	DT	_	21	det	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+17	Single	single	ADJ	JJ	_	21	amod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+19	Fucking	fucking	INTJ	UH	_	21	discourse	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
+21	Day	day	NOUN	NN	_	14	obl:tmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = GUM_reddit_escape-40
+# text = There's nothing else to figure out, we've got it all set up, but this guy is constantly badgering us.
+# s_type=decl
+# speaker=simonjester523
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	's	be	VERB	VBZ	_	0	root	_	_
+3	nothing	nothing	NOUN	NN	Polarity=Neg	2	nsubj	_	_
+4	else	else	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	figure	figure	VERB	VB	_	3	acl	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	we	we	PRON	PRP	_	11	nsubj	_	SpaceAfter=No
+10	've	have	AUX	VBP	_	11	aux	_	_
+11	got	get	VERB	VBN	_	2	parataxis	_	_
+12	it	it	PRON	PRP	_	11	obj	_	_
+13	all	all	ADV	RB	_	14	advmod	_	_
+14	set	set	VERB	VBN	_	11	xcomp	_	_
+15	up	up	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	but	but	CCONJ	CC	_	22	cc	_	_
+18	this	this	DET	DT	_	19	det	_	_
+19	guy	guy	NOUN	NN	_	22	nsubj	_	_
+20	is	be	AUX	VBZ	_	22	aux	_	_
+21	constantly	constantly	ADV	RB	_	22	advmod	_	_
+22	badgering	badger	VERB	VBG	_	11	conj	_	_
+23	us	we	PRON	PRP	_	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-41
+# text = The big day rolls around, he arrives early so he can hide out, and this dude is a kid.
+# s_type=decl
+# speaker=simonjester523
+1	The	The	DET	DT	_	3	det	_	_
+2	big	big	ADJ	JJ	_	3	amod	_	_
+3	day	day	NOUN	NN	_	4	nsubj	_	_
+4	rolls	roll	VERB	VBZ	_	0	root	_	_
+5	around	around	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	he	he	PRON	PRP	_	8	nsubj	_	_
+8	arrives	arrive	VERB	VBZ	_	4	parataxis	_	_
+9	early	early	ADV	RB	_	8	advmod	_	_
+10	so	so	SCONJ	IN	_	13	mark	_	_
+11	he	he	PRON	PRP	_	13	nsubj	_	_
+12	can	can	AUX	MD	_	13	aux	_	_
+13	hide	hide	VERB	VB	_	8	advcl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	and	and	CCONJ	CC	_	21	cc	_	_
+17	this	this	DET	DT	_	18	det	_	_
+18	dude	dude	NOUN	NN	_	21	nsubj	_	_
+19	is	be	AUX	VBZ	_	21	cop	_	_
+20	a	a	DET	DT	_	21	det	_	_
+21	kid	kid	NOUN	NN	_	8	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-42
+# text = Like, pimple-faced, voice-cracking, hair - growing - in - weird - placeskind of kid.
+# s_type=decl
+# speaker=simonjester523
+1	Like	Like	INTJ	UH	_	16	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	pimple-faced	pimple-faced	ADJ	JJ	_	16	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	voice-cracking	voice-cracking	ADJ	JJ	_	16	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	hair	hair	NOUN	NN	_	9	nsubj	_	_
+8	-	-	PUNCT	:	_	7	punct	_	_
+9	growing	grow	VERB	VBG	_	16	acl	_	_
+10	-	-	PUNCT	:	_	15	punct	_	_
+11	in	in	ADP	IN	_	15	case	_	_
+12	-	-	PUNCT	:	_	11	punct	_	_
+13	weird	weird	ADJ	JJ	_	15	amod	_	_
+14	-	-	PUNCT	:	_	13	punct	_	_
+15	places	place	NOUN	NNS	_	9	obl	_	SpaceAfter=No
+16	kind	kind	NOUN	NN	_	0	root	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	kid	kid	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = GUM_reddit_escape-43
+# text = Everybody in the control room is talking about him, because he's been a thorn in our collective sides for weeks, and we 're speculating about telling him marriage at his age is a horrible idea, but whatever it's too late.
+# s_type=decl
+# speaker=simonjester523
+1	Everybody	everybody	NOUN	NN	_	7	nsubj	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	control	control	NOUN	NN	_	5	compound	_	_
+5	room	room	NOUN	NN	_	1	nmod	_	_
+6	is	be	AUX	VBZ	_	7	aux	_	_
+7	talking	talk	VERB	VBG	_	0	root	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	because	because	SCONJ	IN	_	16	mark	_	_
+12	he	he	PRON	PRP	_	16	nsubj	_	SpaceAfter=No
+13	's	have	AUX	VBZ	_	16	aux	_	_
+14	been	be	AUX	VBN	_	16	cop	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	thorn	thorn	NOUN	NN	_	7	advcl	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	our	our	PRON	PRP$	_	20	nmod:poss	_	_
+19	collective	collective	ADJ	JJ	_	20	amod	_	_
+20	sides	side	NOUN	NNS	_	16	nmod	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	weeks	week	NOUN	NNS	_	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	we	we	PRON	PRP	_	27	nsubj	_	_
+26	're	be	AUX	VBP	_	27	aux	_	_
+27	speculating	speculate	VERB	VBG	_	7	conj	_	_
+28	about	about	SCONJ	IN	_	29	mark	_	_
+29	telling	tell	VERB	VBG	_	27	advcl	_	_
+30	him	he	PRON	PRP	_	29	iobj	_	_
+31	marriage	marriage	NOUN	NN	_	38	nsubj	_	_
+32	at	at	ADP	IN	_	34	case	_	_
+33	his	his	PRON	PRP$	_	34	nmod:poss	_	_
+34	age	age	NOUN	NN	_	31	nmod	_	_
+35	is	be	AUX	VBZ	_	38	cop	_	_
+36	a	a	DET	DT	_	38	det	_	_
+37	horrible	horrible	ADJ	JJ	_	38	amod	_	_
+38	idea	idea	NOUN	NN	_	29	ccomp	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	but	but	CCONJ	CC	_	41	cc	_	_
+41	whatever	whatever	PRON	WDT	_	27	conj	_	_
+42	it	it	PRON	PRP	_	45	nsubj	_	SpaceAfter=No
+43	's	be	AUX	VBZ	_	45	cop	_	_
+44	too	too	ADV	RB	_	45	advmod	_	_
+45	late	late	ADJ	JJ	_	41	parataxis	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_escape-44
+# text = So he hides, the girl and her friends show up, they get started and we stash the dude in the second hidden room that they'll eventually end up in.
+# s_type=decl
+# speaker=simonjester523
+1	So	So	ADV	RB	_	3	discourse	_	_
+2	he	he	PRON	PRP	_	3	nsubj	_	_
+3	hides	hide	VERB	VBZ	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	girl	girl	NOUN	NN	_	10	nsubj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	her	her	PRON	PRP$	_	9	nmod:poss	_	_
+9	friends	friend	NOUN	NNS	_	6	conj	_	_
+10	show	show	VERB	VBP	_	3	parataxis	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	they	they	PRON	PRP	_	14	nsubj	_	_
+14	get	get	VERB	VBP	_	10	parataxis	_	_
+15	started	start	VERB	VBN	_	14	xcomp	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	we	we	PRON	PRP	_	18	nsubj	_	_
+18	stash	stash	VERB	VBP	_	14	conj	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	dude	dude	NOUN	NN	_	18	obj	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	_	25	det	_	_
+23	second	second	ADJ	JJ	_	25	amod	_	_
+24	hidden	hidden	ADJ	JJ	_	25	amod	_	_
+25	room	room	NOUN	NN	_	18	obl	_	_
+26	that	that	PRON	WDT	_	30	obl	_	_
+27	they	they	PRON	PRP	_	30	nsubj	_	SpaceAfter=No
+28	'll	will	AUX	MD	_	30	aux	_	_
+29	eventually	eventually	ADV	RB	_	30	advmod	_	_
+30	end	end	VERB	VB	_	25	acl:relcl	_	_
+31	up	up	ADP	RP	_	30	compound:prt	_	_
+32	in	in	ADP	IN	_	26	case	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-45
+# text = Everybody crowds around the monitor to watch and this guy pulls out a bouquet of flowers and unfurls a sign that says "NAME REDACTED, will you go with me to PROM?"
+# s_type=decl
+# speaker=simonjester523
+1	Everybody	everybody	NOUN	NN	_	2	nsubj	_	_
+2	crowds	crowd	VERB	VBP	_	0	root	_	_
+3	around	around	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	monitor	monitor	NOUN	NN	_	2	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	watch	watch	VERB	VB	_	2	advcl	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	this	this	DET	DT	_	10	det	_	_
+10	guy	guy	NOUN	NN	_	11	nsubj	_	_
+11	pulls	pull	VERB	VBZ	_	2	conj	_	_
+12	out	out	ADP	RP	_	11	compound:prt	_	_
+13	a	a	DET	DT	_	14	det	_	_
+14	bouquet	bouquet	NOUN	NN	_	11	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	flowers	flower	NOUN	NNS	_	14	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	unfurls	unfurl	VERB	VBZ	_	11	conj	_	_
+19	a	a	DET	DT	_	20	det	_	_
+20	sign	sign	NOUN	NN	_	18	obj	_	_
+21	that	that	PRON	WDT	_	22	nsubj	_	_
+22	says	say	VERB	VBZ	_	20	acl:relcl	_	_
+23	"	"	PUNCT	``	_	29	punct	_	SpaceAfter=No
+24	NAME	name	NOUN	NN	_	29	vocative	_	_
+25	REDACTED	redact	VERB	VBN	_	24	acl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	24	punct	_	_
+27	will	will	AUX	MD	_	29	aux	_	_
+28	you	you	PRON	PRP	_	29	nsubj	_	_
+29	go	go	VERB	VB	_	22	ccomp	_	_
+30	with	with	ADP	IN	_	31	case	_	_
+31	me	I	PRON	PRP	_	29	obl	_	_
+32	to	to	ADP	TO	_	33	case	_	_
+33	PROM	prom	NOUN	NN	_	29	obl	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	29	punct	_	SpaceAfter=No
+35	"	"	PUNCT	''	_	29	punct	_	_
+
+# sent_id = GUM_reddit_escape-46
+# text = And the entire staff loses their collective shit.
+# s_type=decl
+# speaker=simonjester523
+1	And	And	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	entire	entire	ADJ	JJ	_	4	amod	_	_
+4	staff	staff	NOUN	NN	_	5	nsubj	_	_
+5	loses	lose	VERB	VBZ	_	0	root	_	_
+6	their	their	PRON	PRP$	_	8	nmod:poss	_	_
+7	collective	collective	ADJ	JJ	_	8	amod	_	_
+8	shit	shit	NOUN	NN	_	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_escape-47
+# text = Weeks of constant pestering, endless phone calls, and the most stressful proposal deal we've ever put together.
+# s_type=frag
+# speaker=simonjester523
+1	Weeks	week	NOUN	NNS	_	0	root	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	constant	constant	ADJ	JJ	_	4	amod	_	_
+4	pestering	pestering	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	endless	endless	ADJ	JJ	_	8	amod	_	_
+7	phone	phone	NOUN	NN	_	8	compound	_	_
+8	calls	call	NOUN	NNS	_	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	and	and	CCONJ	CC	_	8	cc	_	_
+11	the	the	DET	DT	_	15	det	_	_
+12	most	most	ADV	RBS	_	13	advmod	_	_
+13	stressful	stressful	ADJ	JJ	_	15	amod	_	_
+14	proposal	proposal	NOUN	NN	_	15	compound	_	_
+15	deal	deal	NOUN	NN	_	4	obj	_	_
+16	we	we	PRON	PRP	_	19	nsubj	_	SpaceAfter=No
+17	've	have	AUX	VBP	_	19	aux	_	_
+18	ever	ever	ADV	RB	_	19	advmod	_	_
+19	put	put	VERB	VBN	_	15	acl:relcl	_	_
+20	together	together	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_escape-48
+# text = For a fucking PROMposal.
+# s_type=frag
+# speaker=simonjester523
+1	For	For	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	_	4	det	_	_
+3	fucking	fucking	INTJ	UH	_	4	discourse	_	_
+4	PROMposal	promposal	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_escape-49
+# text = She said no.
+# s_type=decl
+# speaker=simonjester523
+1	She	She	PRON	PRP	_	2	nsubj	_	_
+2	said	say	VERB	VBD	_	0	root	_	_
+3	no	no	INTJ	UH	_	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-50
+# text = cheers for the girl saying no
+# s_type=frag
+# speaker=LunaTardis
+1	cheers	cheer	NOUN	NNS	_	0	root	_	_
+2	for	for	SCONJ	IN	_	5	mark	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	girl	girl	NOUN	NN	_	5	nsubj	_	_
+5	saying	say	VERB	VBG	_	1	acl	_	_
+6	no	no	INTJ	UH	_	5	obj	_	_
+
+# sent_id = GUM_reddit_escape-51
+# text = Made my day.
+# s_type=other
+# speaker=Thedarknight1611
+1	Made	make	VERB	VBD	_	0	root	_	_
+2	my	my	PRON	PRP$	_	3	nmod:poss	_	_
+3	day	day	NOUN	NN	_	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_escape-52
+# text = "Shes said no"
+# s_type=decl
+# speaker=Thedarknight1611
+1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Shes	she	PRON	PRP	_	3	nsubj	_	Typo=Yes
+3	said	say	VERB	VBD	_	0	root	_	_
+4	no	no	INTJ	UH	_	3	obj	_	SpaceAfter=No
+5	"	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = GUM_reddit_escape-53
+# text = You ok?
+# s_type=q
+# speaker=ajdabbs
+1	You	You	PRON	PRP	_	2	nsubj	_	_
+2	ok	ok	ADJ	JJ	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-54
+# text = What a fucking niche name..
+# s_type=other
+# speaker=DELETED3
+1	What	What	PRON	WP	_	5	dep	_	_
+2	a	a	DET	DT	_	5	det	_	_
+3	fucking	fucking	INTJ	UH	_	5	discourse	_	_
+4	niche	niche	NOUN	NN	_	5	compound	_	_
+5	name	name	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_escape-55
+# text = parents must have been hippies who thought their daughter didn't need to be labeled by society.
+# s_type=sub
+# speaker=DELETED4
+1	parents	parent	NOUN	NNS	_	5	nsubj	_	_
+2	must	must	AUX	MD	_	5	aux	_	_
+3	have	have	AUX	VB	_	5	aux	_	_
+4	been	be	AUX	VBN	_	5	cop	_	_
+5	hippies	hippie	NOUN	NNS	_	0	root	_	_
+6	who	who	PRON	WP	_	7	nsubj	_	_
+7	thought	think	VERB	VBD	_	5	acl:relcl	_	_
+8	their	their	PRON	PRP$	_	9	nmod:poss	_	_
+9	daughter	daughter	NOUN	NN	_	12	nsubj	_	_
+10	did	do	AUX	VBD	_	12	aux	_	SpaceAfter=No
+11	n't	not	PART	RB	Polarity=Neg	12	advmod	_	_
+12	need	need	VERB	VB	_	7	ccomp	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	_	15	aux:pass	_	_
+15	labeled	label	VERB	VBN	_	12	xcomp	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	society	society	NOUN	NN	_	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_escape-56
+# text = Or Ron Swanson.
+# s_type=frag
+# speaker=frozenHelen
+1	Or	Or	CCONJ	CC	_	2	cc	_	_
+2	Ron	Ron	PROPN	NNP	_	0	root	_	_
+3	Swanson	Swanson	PROPN	NNP	_	2	flat	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_escape-57
+# text = AND I MDEAD
+# s_type=decl
+# speaker=Teem0ur
+1	AND	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	_	4	nsubj	_	Typo=Yes
+3	M	be	AUX	VBP	_	4	cop	_	SpaceAfter=No|Typo=Yes
+4	DEAD	Dead	ADJ	JJ	_	0	root	_	_
+

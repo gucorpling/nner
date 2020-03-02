@@ -1,0 +1,346 @@
+# newdoc id = GUM_reddit_superman
+# sent_id = GUM_reddit_superman-1
+# text = Absolutely.
+# s_type=frag
+1	Absolutely	absolutely	ADV	RB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_superman-2
+# text = The film Snyder showed the studio execs in mid 2015 was without a doubt the original cut.
+# s_type=decl
+1	The	the	DET	DT	_	2	det	_	_
+2	film	film	NOUN	NN	_	17	nsubj	_	_
+3	Snyder	Snyder	PROPN	NNP	_	4	nsubj	_	_
+4	showed	show	VERB	VBD	_	2	acl:relcl	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	studio	studio	NOUN	NN	_	7	compound	_	_
+7	execs	exec	NOUN	NNS	_	4	iobj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	mid	mid	ADJ	JJ	_	10	amod	_	_
+10	2015	@card@	NUM	CD	_	4	obl	_	_
+11	was	be	AUX	VBD	_	17	cop	_	_
+12	without	without	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	_	14	det	_	_
+14	doubt	doubt	NOUN	NN	_	17	nmod	_	_
+15	the	the	DET	DT	_	17	det	_	_
+16	original	original	ADJ	JJ	_	17	amod	_	_
+17	cut	cut	NOUN	NN	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = GUM_reddit_superman-3
+# text = The 3 hr UE.
+# s_type=frag
+1	The	the	DET	DT	_	4	det	_	_
+2	3	3	NUM	CD	_	3	nummod	_	_
+3	hr	hour	NOUN	NN	_	4	compound	_	Typo=Yes
+4	UE	UE	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_superman-4
+# text = I guess management needed to be a part of the production from its scripting stages.
+# s_type=decl
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	guess	guess	VERB	VBP	_	0	root	_	_
+3	management	management	NOUN	NN	_	4	nsubj	_	_
+4	needed	need	VERB	VBD	_	2	ccomp	_	_
+5	to	to	PART	TO	_	8	mark	_	_
+6	be	be	AUX	VB	_	8	cop	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	part	part	NOUN	NN	_	4	xcomp	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	production	production	NOUN	NN	_	8	nmod	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	its	its	PRON	PRP$	_	15	nmod:poss	_	_
+14	scripting	script	VERB	VBG	_	15	amod	_	_
+15	stages	stage	NOUN	NNS	_	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_superman-5
+# text = Snyder made the film he wanted to make.
+# s_type=decl
+1	Snyder	Snyder	PROPN	NNP	_	2	nsubj	_	_
+2	made	make	VERB	VBD	_	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	film	film	NOUN	NN	_	2	obj	_	_
+5	he	he	PRON	PRP	_	6	nsubj	_	_
+6	wanted	want	VERB	VBD	_	4	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	make	make	VERB	VB	_	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_superman-6
+# text = He did his job, but he had no oversight, but even he was aware that a 3 hr cut isnt necessarily what the studio wants.
+# s_type=decl
+1	He	he	PRON	PRP	_	2	nsubj	_	_
+2	did	do	VERB	VBD	_	0	root	_	_
+3	his	his	PRON	PRP$	_	4	nmod:poss	_	_
+4	job	job	NOUN	NN	_	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	he	he	PRON	PRP	_	8	nsubj	_	_
+8	had	have	VERB	VBD	_	2	conj	_	_
+9	no	no	DET	DT	Polarity=Neg	10	det	_	_
+10	oversight	oversight	NOUN	NN	_	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	but	but	CCONJ	CC	_	16	cc	_	_
+13	even	even	ADV	RB	_	14	advmod	_	_
+14	he	he	PRON	PRP	_	16	nsubj	_	_
+15	was	be	AUX	VBD	_	16	cop	_	_
+16	aware	aware	ADJ	JJ	_	2	conj	_	_
+17	that	that	SCONJ	IN	_	28	mark	_	_
+18	a	a	DET	DT	_	21	det	_	_
+19	3	3	NUM	CD	_	20	nummod	_	_
+20	hr	hour	NOUN	NN	_	21	compound	_	Typo=Yes
+21	cut	cut	NOUN	NN	_	28	nsubj	_	_
+22	is	be	AUX	VBZ	_	28	cop	_	SpaceAfter=No
+23	nt	not	PART	RB	Polarity=Neg	28	advmod	_	Typo=Yes
+24	necessarily	necessarily	ADV	RB	_	28	advmod	_	_
+25	what	what	PRON	WP	_	28	obj	_	_
+26	the	the	DET	DT	_	27	det	_	_
+27	studio	studio	NOUN	NN	_	28	nsubj	_	_
+28	wants	want	VERB	VBZ	_	16	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_superman-7
+# text = The studio should ve just released the UE.
+# s_type=sub
+1	The	the	DET	DT	_	2	det	_	_
+2	studio	studio	NOUN	NN	_	6	nsubj	_	_
+3	should	should	AUX	MD	_	6	aux	_	_
+4	ve	have	AUX	VB	_	6	aux	_	Typo=Yes
+5	just	just	ADV	RB	_	6	advmod	_	_
+6	released	release	VERB	VBN	_	0	root	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	UE	UE	NOUN	NN	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_superman-8
+# text = It probably would've made less with the decrease in number of showings, but it would've been a more respected film, and that carries more wait in the end.
+# s_type=sub
+1	It	it	PRON	PRP	_	5	nsubj	_	_
+2	probably	probably	ADV	RB	_	5	advmod	_	_
+3	would	would	AUX	MD	_	5	aux	_	SpaceAfter=No
+4	've	have	AUX	VB	_	5	aux	_	_
+5	made	make	VERB	VBN	_	0	root	_	_
+6	less	less	ADJ	JJR	_	5	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	decrease	decrease	NOUN	NN	_	5	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	number	number	NOUN	NN	_	9	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	showings	showing	NOUN	NNS	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	23	punct	_	_
+15	but	but	CCONJ	CC	_	23	cc	_	_
+16	it	it	PRON	PRP	_	23	nsubj	_	_
+17	would	would	AUX	MD	_	23	aux	_	SpaceAfter=No
+18	've	have	AUX	VB	_	23	aux	_	_
+19	been	be	AUX	VBN	_	23	cop	_	_
+20	a	a	DET	DT	_	23	det	_	_
+21	more	more	ADV	RBR	_	22	advmod	_	_
+22	respected	respect	VERB	VBN	_	23	amod	_	_
+23	film	film	NOUN	NN	_	5	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	that	that	PRON	WDT	_	27	nsubj	_	_
+27	carries	carry	VERB	VBZ	_	23	conj	_	_
+28	more	more	ADJ	JJR	_	29	amod	_	_
+29	wait	weight	NOUN	NN	_	27	obj	_	Typo=Yes
+30	in	in	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	end	end	NOUN	NN	_	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_superman-9
+# text = But the movie was uneven in its delivery of action sequences.
+# s_type=decl
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	movie	movie	NOUN	NN	_	5	nsubj	_	_
+4	was	be	AUX	VBD	_	5	cop	_	_
+5	uneven	uneven	ADJ	JJ	Polarity=Neg	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	its	its	PRON	PRP$	_	8	nmod:poss	_	_
+8	delivery	delivery	NOUN	NN	_	5	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	action	action	NOUN	NN	_	11	compound	_	_
+11	sequences	sequence	NOUN	NNS	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_superman-10
+# text = It was mostly contained to the last act.
+# s_type=decl
+1	It	it	PRON	PRP	_	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	_	4	aux:pass	_	_
+3	mostly	mostly	ADV	RB	_	4	advmod	_	_
+4	contained	contain	VERB	VBN	_	0	root	_	Typo=Yes
+5	to	to	ADP	TO	_	8	case	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	last	last	ADJ	JJ	_	8	amod	_	_
+8	act	act	NOUN	NN	_	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_superman-11
+# text = Having a 2 hour set up of character building and dialogue isn't the best strategy when marketing to GA.
+# s_type=decl
+1	Having	have	VERB	VBG	_	16	csubj	_	_
+2	a	a	DET	DT	_	5	det	_	_
+3	2	2	NUM	CD	_	4	nummod	_	_
+4	hour	hour	NOUN	NN	_	5	compound	_	_
+5	set	set	NOUN	NN	_	1	obj	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	character	character	NOUN	NN	_	9	compound	_	_
+9	building	building	NOUN	NN	_	5	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	dialogue	dialogue	NOUN	NN	_	9	conj	_	_
+12	is	be	AUX	VBZ	_	16	cop	_	SpaceAfter=No
+13	n't	not	PART	RB	Polarity=Neg	16	advmod	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	best	good	ADJ	JJS	_	16	amod	_	_
+16	strategy	strategy	NOUN	NN	_	0	root	_	_
+17	when	when	SCONJ	WRB	_	18	mark	_	_
+18	marketing	market	VERB	VBG	_	16	acl	_	_
+19	to	to	ADP	TO	_	20	case	_	_
+20	GA	GA	NOUN	NN	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = GUM_reddit_superman-12
+# text = They want to be entertained.
+# s_type=decl
+1	They	they	PRON	PRP	_	2	nsubj	_	_
+2	want	want	VERB	VBP	_	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	_	5	aux:pass	_	_
+5	entertained	entertain	VERB	VBN	_	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_superman-13
+# text = WB probably saw this and wanted to get to the action much quicker, even though they would nt' have had to do that had there been multiple action sequences throughout the entire film.
+# s_type=other
+1	WB	WB	PROPN	NNP	_	3	nsubj	_	_
+2	probably	probably	ADV	RB	_	3	advmod	_	_
+3	saw	see	VERB	VBD	_	0	root	_	_
+4	this	this	PRON	DT	_	3	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	wanted	want	VERB	VBD	_	3	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	_	6	xcomp	_	_
+9	to	to	ADP	TO	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	action	action	NOUN	NN	_	8	obl	_	_
+12	much	much	ADV	RB	_	13	advmod	_	_
+13	quicker	quick	ADV	RBR	_	8	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	21	punct	_	_
+15	even	even	ADV	RB	_	21	advmod	_	_
+16	though	though	SCONJ	IN	_	21	mark	_	_
+17	they	they	PRON	PRP	_	21	nsubj	_	_
+18	would	would	AUX	MD	_	21	aux	_	_
+19	nt'	not	PART	RB	_	21	advmod	_	Typo=Yes
+20	have	have	AUX	VB	_	21	aux	_	_
+21	had	have	VERB	VBD	_	6	advcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	do	do	VERB	VB	_	21	xcomp	_	_
+24	that	that	PRON	DT	_	23	obj	_	_
+25	had	have	AUX	VBD	_	30	aux	_	_
+26	there	there	PRON	EX	_	30	expl	_	_
+27	been	be	AUX	VBN	_	30	cop	_	_
+28	multiple	multiple	ADJ	JJ	_	30	amod	_	_
+29	action	action	NOUN	NN	_	30	compound	_	_
+30	sequences	sequence	NOUN	NNS	_	21	advcl	_	_
+31	throughout	throughout	ADP	IN	_	34	case	_	_
+32	the	the	DET	DT	_	34	det	_	_
+33	entire	entire	ADJ	JJ	_	34	amod	_	_
+34	film	film	NOUN	NN	_	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_superman-14
+# text = But all we got in the first 2 hrs was the short scene of Superman in Africa, Knightmare Batman, Batmobile scene, and then the non-stop 3rd hour.
+# s_type=decl
+1	But	but	CCONJ	CC	_	13	cc	_	_
+2	all	all	PRON	DT	_	13	nsubj	_	_
+3	we	we	PRON	PRP	_	4	nsubj	_	_
+4	got	get	VERB	VBD	_	2	acl:relcl	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	first	first	ADJ	JJ	_	9	amod	_	_
+8	2	2	NUM	CD	_	9	nummod	_	_
+9	hrs	hour	NOUN	NNS	_	4	obl	_	Typo=Yes
+10	was	be	AUX	VBD	_	13	cop	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	short	short	ADJ	JJ	_	13	amod	_	_
+13	scene	scene	NOUN	NN	_	0	root	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Superman	Superman	PROPN	NNP	_	13	nmod	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Africa	Africa	PROPN	NNP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	Knightmare	Knightmare	PROPN	NNP	_	15	conj	_	_
+20	Batman	Batman	PROPN	NNP	_	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	Batmobile	Batmobile	PROPN	NNP	_	23	compound	_	_
+23	scene	scene	NOUN	NN	_	15	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	30	punct	_	_
+25	and	and	CCONJ	CC	_	30	cc	_	_
+26	then	then	ADV	RB	_	30	advmod	_	_
+27	the	the	DET	DT	_	30	det	_	_
+28	non-stop	non-stop	ADJ	JJ	Polarity=Neg	30	amod	_	_
+29	3rd	3rd	ADJ	JJ	_	30	amod	_	_
+30	hour	hour	NOUN	NN	_	15	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = GUM_reddit_superman-15
+# text = This film needed clear work from the very beginning.
+# s_type=decl
+1	This	this	DET	DT	_	2	det	_	_
+2	film	film	NOUN	NN	_	3	nsubj	_	_
+3	needed	need	VERB	VBD	_	0	root	_	_
+4	clear	clear	ADJ	JJ	_	5	amod	_	_
+5	work	work	NOUN	NN	_	3	obj	_	_
+6	from	from	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	very	very	ADJ	JJ	_	9	amod	_	_
+9	beginning	beginning	NOUN	NN	_	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_superman-16
+# text = The "filmmaker-driven" approach can still work as long as the studios create a sort of minimal blueprint for the director that sort of matches up with what "entertains" a general audience.
+# s_type=sub
+1	The	the	DET	DT	_	5	det	_	_
+2	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	filmmaker-driven	filmmaker-driven	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	''	_	3	punct	_	_
+5	approach	approach	NOUN	NN	_	8	nsubj	_	_
+6	can	can	AUX	MD	_	8	aux	_	_
+7	still	still	ADV	RB	_	8	advmod	_	_
+8	work	work	VERB	VB	_	0	root	_	_
+9	as	as	ADV	RB	_	10	advmod	_	_
+10	long	long	ADV	RB	_	8	advmod	_	_
+11	as	as	SCONJ	IN	_	14	mark	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	studios	studio	NOUN	NNS	_	14	nsubj	_	_
+14	create	create	VERB	VBP	_	10	advcl	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	sort	sort	NOUN	NN	_	14	obj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	minimal	minimal	ADJ	JJ	_	19	amod	_	_
+19	blueprint	blueprint	NOUN	NN	_	16	nmod	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	director	director	NOUN	NN	_	14	obl	_	_
+23	that	that	PRON	WDT	_	26	nsubj	_	_
+24	sort	sort	NOUN	NN	_	26	obl:npmod	_	_
+25	of	of	ADP	IN	_	24	fixed	_	_
+26	matches	match	VERB	VBZ	_	19	acl:relcl	_	_
+27	up	up	ADP	RP	_	26	compound:prt	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	what	what	PRON	WP	_	26	obl	_	_
+30	"	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+31	entertains	entertain	VERB	VBZ	_	29	acl:relcl	_	SpaceAfter=No
+32	"	"	PUNCT	''	_	31	punct	_	_
+33	a	a	DET	DT	_	35	det	_	_
+34	general	general	ADJ	JJ	_	35	amod	_	_
+35	audience	audience	NOUN	NN	_	31	obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	_
+

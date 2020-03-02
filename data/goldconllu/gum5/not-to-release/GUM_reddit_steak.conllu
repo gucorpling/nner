@@ -1,0 +1,972 @@
+# newdoc id = GUM_reddit_steak
+# sent_id = GUM_reddit_steak-1
+# text = TIFU by throwing my steak out a window
+# s_type=decl
+1	TIFU	TIFU	VERB	VBP	_	0	root	_	_
+2	by	by	SCONJ	IN	_	3	mark	_	_
+3	throwing	throw	VERB	VBG	_	1	advcl	_	_
+4	my	my	PRON	PRP$	_	5	nmod:poss	_	_
+5	steak	steak	NOUN	NN	_	3	obj	_	_
+6	out	out	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	_	8	det	_	_
+8	window	window	NOUN	NN	_	3	obl	_	_
+
+# sent_id = GUM_reddit_steak-2
+# text = Last night, my wife's boss from her brand new job invited us over for dinner.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Last	last	ADJ	JJ	_	2	amod	_	_
+2	night	night	NOUN	NN	_	13	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	my	my	PRON	PRP$	_	5	nmod:poss	_	_
+5	wife	wife	NOUN	NN	_	7	nmod:poss	_	SpaceAfter=No
+6	's	's	PART	POS	_	5	case	_	_
+7	boss	boss	NOUN	NN	_	13	nsubj	_	_
+8	from	from	ADP	IN	_	12	case	_	_
+9	her	her	PRON	PRP$	_	12	nmod:poss	_	_
+10	brand	brand	NOUN	NN	_	11	obl:npmod	_	_
+11	new	new	ADJ	JJ	_	12	amod	_	_
+12	job	job	NOUN	NN	_	7	nmod	_	_
+13	invited	invite	VERB	VBD	_	0	root	_	_
+14	us	we	PRON	PRP	_	13	obj	_	_
+15	over	over	ADP	RP	_	13	compound:prt	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	dinner	dinner	NOUN	NN	_	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = GUM_reddit_steak-3
+# text = On the drive over, my wife reiterated many times to me just how important it was to make a good impression.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	On	on	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	drive	drive	NOUN	NN	_	8	obl	_	_
+4	over	over	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	my	my	PRON	PRP$	_	7	nmod:poss	_	_
+7	wife	wife	NOUN	NN	_	8	nsubj	_	_
+8	reiterated	reiterate	VERB	VBD	_	0	root	_	_
+9	many	many	ADJ	JJ	_	10	amod	_	_
+10	times	time	NOUN	NNS	_	8	obl:npmod	_	_
+11	to	to	ADP	TO	_	12	case	_	_
+12	me	I	PRON	PRP	_	8	obl	_	_
+13	just	just	ADV	RB	_	15	advmod	_	_
+14	how	how	SCONJ	WRB	_	15	mark	_	_
+15	important	important	ADJ	JJ	_	8	ccomp	_	_
+16	it	it	PRON	PRP	_	15	nsubj	_	_
+17	was	be	AUX	VBD	_	15	cop	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	make	make	VERB	VB	_	15	xcomp	_	_
+20	a	a	DET	DT	_	22	det	_	_
+21	good	good	ADJ	JJ	_	22	amod	_	_
+22	impression	impression	NOUN	NN	_	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_steak-4
+# text = I scoffed and arrogantly informed my silly wife that I always make good impressions.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	scoffed	scoff	VERB	VBD	_	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	arrogantly	arrogantly	ADV	RB	_	5	advmod	_	_
+5	informed	inform	VERB	VBD	_	2	conj	_	_
+6	my	my	PRON	PRP$	_	8	nmod:poss	_	_
+7	silly	silly	ADJ	JJ	_	8	amod	_	_
+8	wife	wife	NOUN	NN	_	5	obj	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	_	12	nsubj	_	_
+11	always	always	ADV	RB	_	12	advmod	_	_
+12	make	make	VERB	VBP	_	5	ccomp	_	_
+13	good	good	ADJ	JJ	_	14	amod	_	_
+14	impressions	impression	NOUN	NNS	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-5
+# text = My wife's boss is a single lady in her fifties, so it was just the three of us.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	My	my	PRON	PRP$	_	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	_	4	nmod:poss	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	boss	boss	NOUN	NN	_	8	nsubj	_	_
+5	is	be	AUX	VBZ	_	8	cop	_	_
+6	a	a	DET	DT	_	8	det	_	_
+7	single	single	ADJ	JJ	_	8	amod	_	_
+8	lady	lady	NOUN	NN	_	0	root	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	her	her	PRON	PRP$	_	11	nmod:poss	_	_
+11	fifties	fifty	NOUN	NNS	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	so	so	SCONJ	RB	_	18	mark	_	_
+14	it	it	PRON	PRP	_	18	nsubj	_	_
+15	was	be	AUX	VBD	_	18	cop	_	_
+16	just	just	ADV	RB	_	18	advmod	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	three	three	NUM	CD	_	8	advcl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	us	we	PRON	PRP	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = GUM_reddit_steak-6
+# text = We chitchatted over drinks and salads and seemed to really be hitting it off.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	We	we	PRON	PRP	_	2	nsubj	_	_
+2	chitchatted	chitchat	VERB	VBD	_	0	root	_	_
+3	over	over	ADP	IN	_	4	case	_	_
+4	drinks	drink	NOUN	NNS	_	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	salads	salad	NOUN	NNS	_	4	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	seemed	seem	VERB	VBD	_	2	conj	_	_
+9	to	to	PART	TO	_	12	mark	_	_
+10	really	really	ADV	RB	_	12	advmod	_	_
+11	be	be	AUX	VB	_	12	aux	_	_
+12	hitting	hit	VERB	VBG	_	8	xcomp	_	_
+13	it	it	PRON	PRP	_	12	obj	_	_
+14	off	off	ADP	RP	_	12	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-7
+# text = She laughed at my well-timed, perfectly-appropriate jokes and my wife seemed pleased.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	She	she	PRON	PRP	_	2	nsubj	_	_
+2	laughed	laugh	VERB	VBD	_	0	root	_	_
+3	at	at	ADP	IN	_	8	case	_	_
+4	my	my	PRON	PRP$	_	8	nmod:poss	_	_
+5	well-timed	well-timed	ADJ	JJ	_	8	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	perfectly-appropriate	perfectly-appropriate	ADJ	JJ	_	8	amod	_	_
+8	jokes	joke	NOUN	NNS	_	2	obl	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	my	my	PRON	PRP$	_	11	nmod:poss	_	_
+11	wife	wife	NOUN	NN	_	12	nsubj	_	_
+12	seemed	seem	VERB	VBD	_	2	conj	_	_
+13	pleased	pleased	ADJ	JJ	_	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-8
+# text = Soon she brought out the main course, a nice big juicy steak for each of us.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Soon	soon	ADV	RB	_	3	advmod	_	_
+2	she	she	PRON	PRP	_	3	nsubj	_	_
+3	brought	bring	VERB	VBD	_	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	main	main	ADJ	JJ	_	7	amod	_	_
+7	course	course	NOUN	NN	_	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	a	a	DET	DT	_	13	det	_	_
+10	nice	nice	ADJ	JJ	_	13	amod	_	_
+11	big	big	ADJ	JJ	_	13	amod	_	_
+12	juicy	juicy	ADJ	JJ	_	13	amod	_	_
+13	steak	steak	NOUN	NN	_	7	appos	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	each	each	PRON	DT	_	13	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	us	we	PRON	PRP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_steak-9
+# text = As I began to cut into my steak, I was discouraged to discover how under cooked this steak was.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	_	3	nsubj	_	_
+3	began	begin	VERB	VBD	_	12	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	cut	cut	VERB	VB	_	3	xcomp	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	_	8	nmod:poss	_	_
+8	steak	steak	NOUN	NN	_	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	I	I	PRON	PRP	_	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	_	12	aux:pass	_	_
+12	discouraged	discourage	VERB	VBN	_	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	discover	discover	VERB	VB	_	12	xcomp	_	_
+15	how	how	SCONJ	WRB	_	17	mark	_	_
+16	under	under	ADV	RB	_	17	advmod	_	Typo=Yes
+17	cooked	cooked	ADJ	JJ	_	14	ccomp	_	Typo=Yes
+18	this	this	DET	DT	_	19	det	_	_
+19	steak	steak	NOUN	NN	_	17	nsubj	_	_
+20	was	be	AUX	VBD	_	17	cop	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = GUM_reddit_steak-10
+# text = Now, I've had my fair share of rare steak.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	I	I	PRON	PRP	_	5	nsubj	_	SpaceAfter=No
+4	've	have	AUX	VBP	_	5	aux	_	_
+5	had	have	VERB	VBN	_	0	root	_	_
+6	my	my	PRON	PRP$	_	8	nmod:poss	_	_
+7	fair	fair	ADJ	JJ	_	8	amod	_	_
+8	share	share	NOUN	NN	_	5	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	rare	rare	ADJ	JJ	_	11	amod	_	_
+11	steak	steak	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-11
+# text = I prefer medium, but I can handle rare.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	prefer	prefer	VERB	VBP	_	0	root	_	_
+3	medium	medium	ADJ	JJ	_	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	but	but	CCONJ	CC	_	8	cc	_	_
+6	I	I	PRON	PRP	_	8	nsubj	_	_
+7	can	can	AUX	MD	_	8	aux	_	_
+8	handle	handle	VERB	VB	_	2	conj	_	_
+9	rare	rare	ADJ	JJ	_	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-12
+# text = This was several - minutes - on - a - hot - grillshort of rare.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	This	this	PRON	DT	_	14	nsubj	_	_
+2	was	be	AUX	VBD	_	14	cop	_	_
+3	several	several	ADJ	JJ	_	5	amod	_	_
+4	-	-	PUNCT	:	_	3	punct	_	_
+5	minutes	minute	NOUN	NNS	_	14	obl:npmod	_	_
+6	-	-	PUNCT	:	_	13	punct	_	_
+7	on	on	ADP	IN	_	13	case	_	_
+8	-	-	PUNCT	:	_	7	punct	_	_
+9	a	a	DET	DT	_	13	det	_	_
+10	-	-	PUNCT	:	_	9	punct	_	_
+11	hot	hot	ADJ	JJ	_	13	amod	_	_
+12	-	-	PUNCT	:	_	11	punct	_	_
+13	grill	grill	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+14	short	short	ADJ	JJ	_	0	root	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	rare	rare	ADJ	JJ	_	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = GUM_reddit_steak-13
+# text = I probably could've resuscitated the cow had I tried.
+# s_type=sub
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	5	nsubj	_	_
+2	probably	probably	ADV	RB	_	5	advmod	_	_
+3	could	could	AUX	MD	_	5	aux	_	SpaceAfter=No
+4	've	have	AUX	VB	_	5	aux	_	_
+5	resuscitated	resuscitate	VERB	VBN	_	0	root	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	cow	cow	NOUN	NN	_	5	obj	_	_
+8	had	have	AUX	VBD	_	10	aux	_	_
+9	I	I	PRON	PRP	_	10	nsubj	_	_
+10	tried	try	VERB	VBD	_	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-14
+# text = Instead, I sat there fidgeting with my knife and fork, worrying about how I was going to get away with not eating this steak.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Instead	instead	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	I	I	PRON	PRP	_	4	nsubj	_	_
+4	sat	sit	VERB	VBD	_	0	root	_	_
+5	there	there	ADV	RB	_	4	advmod	_	_
+6	fidgeting	fidget	VERB	VBG	_	4	advcl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	_	9	nmod:poss	_	_
+9	knife	knife	NOUN	NN	_	6	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	fork	fork	NOUN	NN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	worrying	worry	VERB	VBG	_	4	advcl	_	_
+14	about	about	ADP	IN	_	15	case	_	_
+15	how	how	SCONJ	WRB	_	13	obl	_	_
+16	I	I	PRON	PRP	_	18	nsubj	_	_
+17	was	be	AUX	VBD	_	18	aux	_	_
+18	going	go	VERB	VBG	_	15	acl:relcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	get	get	VERB	VB	_	18	xcomp	_	_
+21	away	away	ADP	RP	_	20	compound:prt	_	_
+22	with	with	SCONJ	IN	_	24	mark	_	_
+23	not	not	PART	RB	Polarity=Neg	24	advmod	_	_
+24	eating	eat	VERB	VBG	_	20	advcl	_	_
+25	this	this	DET	DT	_	26	det	_	_
+26	steak	steak	NOUN	NN	_	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-15
+# text = Claim vegan-ism?
+# s_type=q
+# speaker=defenestrate_me_now
+1	Claim	claim	VERB	VB	_	0	root	_	_
+2	vegan-ism	vegan-ism	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = GUM_reddit_steak-16
+# text = No, I'd already feigned great enthusiasm upon seeing the steak.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	I	I	PRON	PRP	_	6	nsubj	_	SpaceAfter=No
+4	'd	have	AUX	VBD	_	6	aux	_	_
+5	already	already	ADV	RB	_	6	advmod	_	_
+6	feigned	feign	VERB	VBN	_	0	root	_	_
+7	great	great	ADJ	JJ	_	8	amod	_	_
+8	enthusiasm	enthusiasm	NOUN	NN	_	6	obj	_	_
+9	upon	upon	SCONJ	IN	_	10	mark	_	_
+10	seeing	see	VERB	VBG	_	6	advcl	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	steak	steak	NOUN	NN	_	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_steak-17
+# text = Just then, our hostess excused herself to the kitchen to take care of some dessert preparations.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	then	then	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	our	our	PRON	PRP$	_	5	nmod:poss	_	_
+5	hostess	hostess	NOUN	NN	_	6	nsubj	_	_
+6	excused	excuse	VERB	VBD	_	0	root	_	_
+7	herself	herself	PRON	PRP	_	6	obj	_	_
+8	to	to	ADP	TO	_	10	case	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	kitchen	kitchen	NOUN	NN	_	6	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	take	take	VERB	VB	_	6	advcl	_	_
+13	care	care	NOUN	NN	_	12	obj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	some	some	DET	DT	_	17	det	_	_
+16	dessert	dessert	NOUN	NN	_	17	compound	_	_
+17	preparations	preparation	NOUN	NNS	_	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_steak-18
+# text = As I looked across the fancy dining room table at the open window of this 3rd story apartment ... a cartoon light bulb appeared over my head.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	_	3	nsubj	_	_
+3	looked	look	VERB	VBD	_	24	advcl	_	_
+4	across	across	ADP	IN	_	9	case	_	_
+5	the	the	DET	DT	_	9	det	_	_
+6	fancy	fancy	ADJ	JJ	_	9	amod	_	_
+7	dining	dining	NOUN	NN	_	8	compound	_	_
+8	room	room	NOUN	NN	_	9	compound	_	_
+9	table	table	NOUN	NN	_	3	obl	_	_
+10	at	at	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	open	open	ADJ	JJ	_	13	amod	_	_
+13	window	window	NOUN	NN	_	3	obl	_	_
+14	of	of	ADP	IN	_	18	case	_	_
+15	this	this	DET	DT	_	18	det	_	_
+16	3rd	3rd	ADJ	JJ	_	17	amod	_	_
+17	story	story	NOUN	NN	_	18	compound	_	_
+18	apartment	apartment	NOUN	NN	_	13	nmod	_	_
+19	...	...	PUNCT	:	_	3	punct	_	_
+20	a	a	DET	DT	_	23	det	_	_
+21	cartoon	cartoon	NOUN	NN	_	23	compound	_	_
+22	light	light	NOUN	NN	_	23	compound	_	_
+23	bulb	bulb	NOUN	NN	_	24	nsubj	_	_
+24	appeared	appear	VERB	VBD	_	0	root	_	_
+25	over	over	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	_	27	nmod:poss	_	_
+27	head	head	NOUN	NN	_	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = GUM_reddit_steak-19
+# text = I knew I had to be decisive, realizing that she could return at any moment.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	knew	know	VERB	VBD	_	0	root	_	_
+3	I	I	PRON	PRP	_	4	nsubj	_	_
+4	had	have	VERB	VBD	_	2	ccomp	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	_	7	cop	_	_
+7	decisive	decisive	ADJ	JJ	_	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	realizing	realize	VERB	VBG	_	2	advcl	_	_
+10	that	that	SCONJ	IN	_	13	mark	_	_
+11	she	she	PRON	PRP	_	13	nsubj	_	_
+12	could	could	AUX	MD	_	13	aux	_	_
+13	return	return	VERB	VB	_	9	ccomp	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	any	any	DET	DT	_	16	det	_	_
+16	moment	moment	NOUN	NN	_	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-20
+# text = I committed.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	committed	commit	VERB	VBD	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-21
+# text = I grabbed the steak with my hand, gently shook off the juice and executed a perfect throw right through the center of the open window.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	grabbed	grab	VERB	VBD	_	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	steak	steak	NOUN	NN	_	2	obj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	_	7	nmod:poss	_	_
+7	hand	hand	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	gently	gently	ADV	RB	_	10	advmod	_	_
+10	shook	shake	VERB	VBD	_	2	conj	_	_
+11	off	off	ADP	RP	_	10	compound:prt	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	juice	juice	NOUN	NN	_	10	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	executed	execute	VERB	VBD	_	2	conj	_	_
+16	a	a	DET	DT	_	18	det	_	_
+17	perfect	perfect	ADJ	JJ	_	18	amod	_	_
+18	throw	throw	NOUN	NN	_	15	obj	_	_
+19	right	right	ADV	RB	_	22	advmod	_	_
+20	through	through	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	center	center	NOUN	NN	_	18	nmod	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	_	26	det	_	_
+25	open	open	ADJ	JJ	_	26	amod	_	_
+26	window	window	NOUN	NN	_	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-22
+# text = Here's the big time FU.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Here	here	ADV	RB	_	2	advmod	_	SpaceAfter=No
+2	's	be	VERB	VBZ	_	0	root	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	big	big	ADJ	JJ	_	5	amod	_	_
+5	time	time	NOUN	NN	_	6	compound	_	_
+6	FU	FU	NOUN	NN	_	2	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-23
+# text = The window wasn't open.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	The	the	DET	DT	_	2	det	_	_
+2	window	window	NOUN	NN	_	5	nsubj	_	_
+3	was	be	AUX	VBD	_	5	cop	_	SpaceAfter=No
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	_
+5	open	open	ADJ	JJ	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-24
+# text = It was the cleanest fricking window you've ever seen in your life.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	It	it	PRON	PRP	_	6	nsubj	_	_
+2	was	be	AUX	VBD	_	6	cop	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	cleanest	clean	ADJ	JJS	_	6	amod	_	_
+5	fricking	fricking	INTJ	UH	_	6	discourse	_	_
+6	window	window	NOUN	NN	_	0	root	_	_
+7	you	you	PRON	PRP	_	10	nsubj	_	SpaceAfter=No
+8	've	have	AUX	VBP	_	10	aux	_	_
+9	ever	ever	ADV	RB	_	10	advmod	_	_
+10	seen	see	VERB	VBN	_	6	acl:relcl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	your	your	PRON	PRP$	_	13	nmod:poss	_	_
+13	life	life	NOUN	NN	_	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = GUM_reddit_steak-25
+# text = That is, until my mostly raw slab of steak slammed up against it and slowly slid down leaving a trail of bloody juice in its wake.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	That	that	PRON	DT	_	11	obl:npmod	_	_
+2	is	be	VERB	VBZ	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	until	until	SCONJ	IN	_	11	mark	_	_
+5	my	my	PRON	PRP$	_	8	nmod:poss	_	_
+6	mostly	mostly	ADV	RB	_	7	advmod	_	_
+7	raw	raw	ADJ	JJ	_	8	amod	_	_
+8	slab	slab	NOUN	NN	_	11	nsubj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	steak	steak	NOUN	NN	_	8	nmod	_	_
+11	slammed	slam	VERB	VBD	_	0	root	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	against	against	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	_	11	obl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	slowly	slowly	ADV	RB	_	17	advmod	_	_
+17	slid	slide	VERB	VBD	_	11	conj	_	_
+18	down	down	ADV	RB	_	17	advmod	_	_
+19	leaving	leave	VERB	VBG	_	17	advcl	_	_
+20	a	a	DET	DT	_	21	det	_	_
+21	trail	trail	NOUN	NN	_	19	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	bloody	bloody	ADJ	JJ	_	24	amod	_	_
+24	juice	juice	NOUN	NN	_	21	nmod	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	its	its	PRON	PRP$	_	27	nmod:poss	_	_
+27	wake	wake	NOUN	NN	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = GUM_reddit_steak-26
+# text = My wife - who's steak was a nice medium rare and was unaware of my predicament - turned, jaw dropped, and stared at me like I was an alien from another planet.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	My	my	PRON	PRP$	_	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	_	18	nsubj	_	_
+3	-	-	PUNCT	:	_	10	punct	_	_
+4	who's	whose	PRON	WP$	_	5	nmod:poss	_	Typo=Yes
+5	steak	steak	NOUN	NN	_	10	nsubj	_	_
+6	was	be	AUX	VBD	_	10	cop	_	_
+7	a	a	DET	DT	_	10	det	_	_
+8	nice	nice	ADJ	JJ	_	10	amod	_	_
+9	medium	medium	ADJ	JJ	_	10	amod	_	_
+10	rare	rare	ADJ	JJ	_	2	acl:relcl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	was	be	AUX	VBD	_	13	cop	_	_
+13	unaware	unaware	ADJ	JJ	Polarity=Neg	10	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	_	16	nmod:poss	_	_
+16	predicament	predicament	NOUN	NN	_	13	obl	_	_
+17	-	-	PUNCT	:	_	2	punct	_	_
+18	turned	turn	VERB	VBD	_	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	jaw	jaw	NOUN	NN	_	21	obj	_	_
+21	dropped	drop	VERB	VBN	_	18	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	stared	stare	VERB	VBD	_	18	conj	_	_
+25	at	at	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	_	24	obl	_	_
+27	like	like	SCONJ	IN	_	31	mark	_	_
+28	I	I	PRON	PRP	_	31	nsubj	_	_
+29	was	be	AUX	VBD	_	31	cop	_	_
+30	an	a	DET	DT	_	31	det	_	_
+31	alien	alien	NOUN	NN	_	24	advcl	_	_
+32	from	from	ADP	IN	_	34	case	_	_
+33	another	another	DET	DT	_	34	det	_	_
+34	planet	planet	NOUN	NN	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = GUM_reddit_steak-27
+# text = This look then slowly morphed into more of a there - is - no - place - on - this - planet - you - can - ever - hide - from - meexpression of demonic anger.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	This	this	DET	DT	_	2	det	_	_
+2	look	look	NOUN	NN	_	5	nsubj	_	_
+3	then	then	ADV	RB	_	5	advmod	_	_
+4	slowly	slowly	ADV	RB	_	5	advmod	_	_
+5	morphed	morph	VERB	VBD	_	0	root	_	_
+6	into	into	ADP	IN	_	7	case	_	_
+7	more	more	ADJ	JJR	_	5	obl	_	_
+8	of	of	ADP	IN	_	35	case	_	_
+9	a	a	DET	DT	_	35	det	_	_
+10	there	there	PRON	EX	_	12	expl	_	_
+11	-	-	PUNCT	:	_	10	punct	_	_
+12	is	be	VERB	VBZ	_	35	amod	_	_
+13	-	-	PUNCT	:	_	16	punct	_	_
+14	no	no	DET	DT	Polarity=Neg	16	det	_	_
+15	-	-	PUNCT	:	_	14	punct	_	_
+16	place	place	NOUN	NN	_	12	nsubj	_	_
+17	-	-	PUNCT	:	_	22	punct	_	_
+18	on	on	ADP	IN	_	22	case	_	_
+19	-	-	PUNCT	:	_	18	punct	_	_
+20	this	this	DET	DT	_	22	det	_	_
+21	-	-	PUNCT	:	_	20	punct	_	_
+22	planet	planet	NOUN	NN	_	16	nmod	_	_
+23	-	-	PUNCT	:	_	30	punct	_	_
+24	you	you	PRON	PRP	_	30	nsubj	_	_
+25	-	-	PUNCT	:	_	24	punct	_	_
+26	can	can	AUX	MD	_	30	aux	_	_
+27	-	-	PUNCT	:	_	26	punct	_	_
+28	ever	ever	ADV	RB	_	30	advmod	_	_
+29	-	-	PUNCT	:	_	28	punct	_	_
+30	hide	hide	VERB	VB	_	16	acl:relcl	_	_
+31	-	-	PUNCT	:	_	34	punct	_	_
+32	from	from	ADP	IN	_	34	case	_	_
+33	-	-	PUNCT	:	_	32	punct	_	_
+34	me	I	PRON	PRP	_	30	obl	_	SpaceAfter=No
+35	expression	expression	NOUN	NN	_	7	obl	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	demonic	demonic	ADJ	JJ	_	38	amod	_	_
+38	anger	anger	NOUN	NN	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-28
+# text = My wife's boss heard the thud of the steak - on - windowimpact and came quickly.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	My	my	PRON	PRP$	_	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	_	4	nmod:poss	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	boss	boss	NOUN	NN	_	5	nsubj	_	_
+5	heard	hear	VERB	VBD	_	0	root	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	thud	thud	NOUN	NN	_	5	obj	_	_
+8	of	of	ADP	IN	_	15	case	_	_
+9	the	the	DET	DT	_	15	det	_	_
+10	steak	steak	NOUN	NN	_	15	compound	_	_
+11	-	-	PUNCT	:	_	14	punct	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	-	-	PUNCT	:	_	12	punct	_	_
+14	window	window	NOUN	NN	_	10	nmod	_	SpaceAfter=No
+15	impact	impact	NOUN	NN	_	7	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	came	come	VERB	VBD	_	5	conj	_	_
+18	quickly	quickly	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-29
+# text = She took in the scene, the steak sitting on the window sill, the blood trail, my empty plate, and then gave me an inquisitive, puzzled look.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	She	she	PRON	PRP	_	2	nsubj	_	_
+2	took	take	VERB	VBD	_	0	root	_	_
+3	in	in	ADP	IN	_	2	compound:prt	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	scene	scene	NOUN	NN	_	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	steak	steak	NOUN	NN	_	5	appos	_	_
+9	sitting	sit	VERB	VBG	_	8	acl	_	_
+10	on	on	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	window	window	NOUN	NN	_	13	compound	_	_
+13	sill	sill	NOUN	NN	_	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	the	the	DET	DT	_	17	det	_	_
+16	blood	blood	NOUN	NN	_	17	compound	_	_
+17	trail	trail	NOUN	NN	_	5	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	my	my	PRON	PRP$	_	21	nmod:poss	_	_
+20	empty	empty	ADJ	JJ	_	21	amod	_	_
+21	plate	plate	NOUN	NN	_	5	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	then	then	ADV	RB	_	25	advmod	_	_
+25	gave	give	VERB	VBD	_	2	conj	_	_
+26	me	I	PRON	PRP	_	25	iobj	_	_
+27	an	a	DET	DT	_	31	det	_	_
+28	inquisitive	inquisitive	ADJ	JJ	_	31	amod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	puzzled	puzzled	ADJ	JJ	_	31	amod	_	_
+31	look	look	NOUN	NN	_	25	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-30
+# text = I just didn't know what to say.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	5	nsubj	_	_
+2	just	just	ADV	RB	_	5	advmod	_	_
+3	did	do	AUX	VBD	_	5	aux	_	SpaceAfter=No
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	_
+5	know	know	VERB	VB	_	0	root	_	_
+6	what	what	PRON	WP	_	8	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	say	say	VERB	VB	_	5	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-31
+# text = It felt like a minute of silence, but was probably 3 or 4 seconds.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	It	it	PRON	PRP	_	2	nsubj	_	_
+2	felt	feel	VERB	VBD	_	0	root	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	minute	minute	NOUN	NN	_	2	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	silence	silence	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	but	but	CCONJ	CC	_	15	cc	_	_
+10	was	be	AUX	VBD	_	15	cop	_	_
+11	probably	probably	ADV	RB	_	15	advmod	_	_
+12	3	3	NUM	CD	_	15	nummod	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	4	4	NUM	CD	_	12	conj	_	_
+15	seconds	second	NOUN	NNS	_	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-32
+# text = Finally, the best I could manage was "I ... I'm so sorry.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Finally	finally	ADV	RB	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	best	good	ADJ	JJS	_	15	nsubj	_	_
+5	I	I	PRON	PRP	_	7	nsubj	_	_
+6	could	could	AUX	MD	_	7	aux	_	_
+7	manage	manage	VERB	VB	_	4	acl:relcl	_	_
+8	was	be	AUX	VBD	_	15	cop	_	_
+9	"	''	PUNCT	``	_	8	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	_	12	dep	_	_
+11	...	...	PUNCT	:	_	10	punct	_	_
+12	I	I	PRON	PRP	_	15	nsubj	_	SpaceAfter=No
+13	'm	be	AUX	VBP	_	15	cop	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	sorry	sorry	ADJ	JJ	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = GUM_reddit_steak-33
+# text = I am such a clutz ...
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	5	nsubj	_	_
+2	am	be	AUX	VBP	_	5	cop	_	_
+3	such	such	ADJ	JJ	_	5	det:predet	_	_
+4	a	a	DET	DT	_	5	det	_	_
+5	clutz	clutz	NOUN	NN	_	0	root	_	_
+6	...	...	PUNCT	:	_	5	punct	_	_
+
+# sent_id = GUM_reddit_steak-34
+# text = I don't know ...
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	do	do	AUX	VBP	_	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	_
+4	know	know	VERB	VB	_	0	root	_	_
+5	...	...	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-35
+# text = I was just cutting it ..
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	_	4	aux	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	cutting	cut	VERB	VBG	_	0	root	_	_
+5	it	it	PRON	PRP	_	4	obj	_	_
+6	..	..	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-36
+# text = and ... it ... ... it slipped ... just ask my wife, I really am a clutz ... right honey?
+# s_type=multiple
+# speaker=defenestrate_me_now
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	...	...	PUNCT	:	_	1	punct	_	_
+3	it	it	PRON	PRP	_	6	dep	_	_
+4	...	...	PUNCT	:	_	3	punct	_	_
+5	...	...	PUNCT	:	_	3	punct	_	_
+6	it	it	PRON	PRP	_	7	nsubj	_	_
+7	slipped	slip	VERB	VBD	_	0	root	_	_
+8	...	...	PUNCT	:	_	10	punct	_	_
+9	just	just	ADV	RB	_	10	advmod	_	_
+10	ask	ask	VERB	VB	_	7	parataxis	_	_
+11	my	my	PRON	PRP$	_	12	nmod:poss	_	_
+12	wife	wife	NOUN	NN	_	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	I	I	PRON	PRP	_	18	nsubj	_	_
+15	really	really	ADV	RB	_	18	advmod	_	_
+16	am	be	AUX	VBP	_	18	cop	_	_
+17	a	a	DET	DT	_	18	det	_	_
+18	clutz	clutz	NOUN	NN	_	10	parataxis	_	_
+19	...	...	PUNCT	:	_	20	punct	_	_
+20	right	right	ADJ	JJ	_	18	discourse	_	_
+21	honey	honey	NOUN	NN	_	20	vocative	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = GUM_reddit_steak-37
+# text = ... (no help coming from that direction) ...
+# s_type=other
+# speaker=defenestrate_me_now
+1	...	...	PUNCT	:	_	4	punct	_	_
+2	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+3	no	no	DET	DT	Polarity=Neg	4	det	_	_
+4	help	help	NOUN	NN	_	0	root	_	_
+5	coming	come	VERB	VBG	_	4	acl	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	that	that	DET	DT	_	8	det	_	_
+8	direction	direction	NOUN	NN	_	5	obl	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	4	punct	_	_
+10	...	...	PUNCT	:	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-38
+# text = I will clean this up ...
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	3	nsubj	_	_
+2	will	will	AUX	MD	_	3	aux	_	_
+3	clean	clean	VERB	VB	_	0	root	_	_
+4	this	this	PRON	DT	_	3	obj	_	_
+5	up	up	ADP	RP	_	3	compound:prt	_	_
+6	...	...	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_steak-39
+# text = I can't believe this ...
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	ca	ca	AUX	MD	_	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	_
+4	believe	believe	VERB	VB	_	0	root	_	_
+5	this	this	PRON	DT	_	4	obj	_	_
+6	...	...	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-40
+# text = I am so sorry" etc ... etc ...
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	4	nsubj	_	_
+2	am	be	AUX	VBP	_	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	sorry	sorry	ADJ	JJ	_	0	root	_	SpaceAfter=No
+5	"	''	PUNCT	''	_	6	punct	_	_
+6	etc	etc	X	FW	_	4	conj	_	_
+7	...	...	PUNCT	:	_	8	punct	_	_
+8	etc	etc	X	FW	_	4	conj	_	_
+9	...	...	PUNCT	.	_	4	punct	_	_
+
+# sent_id = GUM_reddit_steak-41
+# text = Both women continued to stare at me like I had escaped from the loony bin, as I smeared the blood around the window with my cloth napkin, dusted off the steak, and continued to mutter my incoherent explanation.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	Both	both	DET	DT	_	2	det	_	_
+2	women	woman	NOUN	NNS	_	3	nsubj	_	_
+3	continued	continue	VERB	VBD	_	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	stare	stare	VERB	VB	_	3	xcomp	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	_	5	obl	_	_
+8	like	like	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	_	11	nsubj	_	_
+10	had	have	AUX	VBD	_	11	aux	_	_
+11	escaped	escape	VERB	VBN	_	5	advcl	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	loony	loony	ADJ	JJ	_	15	amod	_	_
+15	bin	bin	NOUN	NN	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	I	I	PRON	PRP	_	19	nsubj	_	_
+19	smeared	smear	VERB	VBD	_	3	advcl	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	blood	blood	NOUN	NN	_	19	obj	_	_
+22	around	around	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	_	24	det	_	_
+24	window	window	NOUN	NN	_	19	obl	_	_
+25	with	with	ADP	IN	_	28	case	_	_
+26	my	my	PRON	PRP$	_	28	nmod:poss	_	_
+27	cloth	cloth	NOUN	NN	_	28	compound	_	_
+28	napkin	napkin	NOUN	NN	_	19	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	dusted	dust	VERB	VBD	_	19	conj	_	_
+31	off	off	ADP	RP	_	30	compound:prt	_	_
+32	the	the	DET	DT	_	33	det	_	_
+33	steak	steak	NOUN	NN	_	30	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	continued	continue	VERB	VBD	_	19	conj	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	mutter	mutter	VERB	VB	_	36	xcomp	_	_
+39	my	my	PRON	PRP$	_	41	nmod:poss	_	_
+40	incoherent	incoherent	ADJ	JJ	Polarity=Neg	41	amod	_	_
+41	explanation	explanation	NOUN	NN	_	38	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_steak-42
+# text = I knew no one was buying the story.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	knew	know	VERB	VBD	_	0	root	_	_
+3	no	no	DET	DT	Polarity=Neg	4	det	_	_
+4	one	one	NUM	CD	_	6	nsubj	_	_
+5	was	be	AUX	VBD	_	6	aux	_	_
+6	buying	buy	VERB	VBG	_	2	ccomp	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	story	story	NOUN	NN	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-43
+# text = I knew what I had to do.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	knew	know	VERB	VBD	_	0	root	_	_
+3	what	what	PRON	WP	_	5	obj	_	_
+4	I	I	PRON	PRP	_	5	nsubj	_	_
+5	had	have	VERB	VBD	_	2	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	_	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-44
+# text = I sheepishly returned to my seat and proceeded to eat every bite of that disgusting, cold, chewy, bloody, raw steak.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	3	nsubj	_	_
+2	sheepishly	sheepishly	ADV	RB	_	3	advmod	_	_
+3	returned	return	VERB	VBD	_	0	root	_	_
+4	to	to	ADP	TO	_	6	case	_	_
+5	my	my	PRON	PRP$	_	6	nmod:poss	_	_
+6	seat	seat	NOUN	NN	_	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	proceeded	proceed	VERB	VBD	_	3	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	eat	eat	VERB	VB	_	8	xcomp	_	_
+11	every	every	DET	DT	_	12	det	_	_
+12	bite	bite	NOUN	NN	_	10	obj	_	_
+13	of	of	ADP	IN	_	24	case	_	_
+14	that	that	DET	DT	_	24	det	_	_
+15	disgusting	disgusting	ADJ	JJ	_	24	amod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	cold	cold	ADJ	JJ	_	24	amod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	chewy	chewy	ADJ	JJ	_	24	amod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	bloody	bloody	ADJ	JJ	_	24	amod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	raw	raw	ADJ	JJ	_	24	amod	_	_
+24	steak	steak	NOUN	NN	_	12	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = GUM_reddit_steak-45
+# text = I remained pretty quiet the rest of the evening.
+# s_type=decl
+# speaker=defenestrate_me_now
+1	I	I	PRON	PRP	_	2	nsubj	_	_
+2	remained	remain	VERB	VBD	_	0	root	_	_
+3	pretty	pretty	ADV	RB	_	4	advmod	_	_
+4	quiet	quiet	ADJ	JJ	_	2	xcomp	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	rest	rest	NOUN	NN	_	2	obl:tmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	evening	evening	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = GUM_reddit_steak-46
+# text = My wife's only two words to me since the incident are "I'm fine".
+# s_type=decl
+# speaker=defenestrate_me_now
+1	My	my	PRON	PRP$	_	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	_
+4	only	only	ADJ	JJ	_	6	amod	_	_
+5	two	two	NUM	CD	_	6	nummod	_	_
+6	words	word	NOUN	NNS	_	16	nsubj	_	_
+7	to	to	ADP	TO	_	8	case	_	_
+8	me	I	PRON	PRP	_	6	nmod	_	_
+9	since	since	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	incident	incident	NOUN	NN	_	6	nmod	_	_
+12	are	be	AUX	VBP	_	16	cop	_	_
+13	"	''	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	_	16	nsubj	_	SpaceAfter=No
+15	'm	be	AUX	VBP	_	16	cop	_	_
+16	fine	fine	ADJ	JJ	_	0	root	_	SpaceAfter=No
+17	"	''	PUNCT	''	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	16	punct	_	_
+
