@@ -9,7 +9,8 @@ from flair.data import Corpus
 from flair.data_fetcher import NLPTaskDataFetcher, NLPTask
 from flair.embeddings import TokenEmbeddings, WordEmbeddings, StackedEmbeddings, FlairEmbeddings
 from typing import List
-
+from flair.datasets import ClassificationCorpus, ColumnCorpus
+from flair.data import Corpus
 
 
 parser = argparse.ArgumentParser(description='Get GUM data')
@@ -41,9 +42,25 @@ args = parser.parse_args()
 
 # corpus: TaggedCorpus = NLPTaskDataFetcher.load_corpus("gum_ent",base_path="gum_slim")#.downsample(0.1)
 
-corpus: Corpus = NLPTaskDataFetcher.load_corpus(args.corpus,base_path=os.path.normpath('./data/autoslim/')).downsample(args.size)
+# corpus: Corpus = NLPTaskDataFetcher.load_corpus(args.corpus,base_path=os.path.normpath('./data/autoslim/')).downsample(args.size)
+
 # corpus: Corpus = NLPTaskDataFetcher.load_corpus(os.path.normpath('./data/autoslim/gum5/'))#.downsample(0.1)
 
+# corpus: Corpus = ClassificationCorpus(os.path.normpath('./data/autoslim/'+args.corpus),
+#                                       test_file= args.corpus + '.test',
+#                                       dev_file= args.corpus + 'dev',
+#                                       train_file= args.corpus + '.train',
+#                                       delimiter = '\t').downsample(args.size)
+#
+#
+columns = {0: 'text', 1: 'pos', 2: 'func', 3: 'ner'}
+
+corpus: Corpus = ColumnCorpus('.' + os.sep + 'data' + os.sep + 'autoslim' + os.sep + args.corpus,
+                              columns,
+                              test_file= args.corpus + '.test',
+                              dev_file= args.corpus + '.dev',
+                              train_file= args.corpus + '.train').downsample(args.size)
+#
 
 print(corpus)
 
